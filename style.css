@@ -1,0 +1,292 @@
+body {
+    margin: 0 auto;
+    background-color: #FFEAAE;
+    font-family: "Open sans", sans-serif;
+}
+
+html {
+    z-index: 3;
+}
+
+
+/* header Sections */
+
+header {
+    height: 4rem;
+    width: 100%;
+    position: fixed;
+    display: inline-flex;
+    align-items: center;
+    z-index: 2;
+    background-color: #E6E8E6;
+    overflow: hidden;
+    top: 0;
+}
+
+.guide {
+    list-style-type: none;
+    display: inline-flex;
+}
+
+.guide li {
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.banner-menu {
+    position: absolute;
+    right: 24px;
+    margin-top: .5rem;
+}
+
+.logo {
+    height: 32px;
+    position: relative;
+    left: 1rem;
+    margin-top: .5rem;
+}
+
+.nav-button {
+    padding: 5px;
+    border-radius: .5rem;
+    border: black solid 1px;
+    font-size: 1.5vw;
+    background-color: white;
+}
+
+
+/* Greeting */
+
+h1 {
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    position: relative;
+    top: 4rem;
+    text-align: center;
+}
+
+
+/* Basic info */
+
+.img-container {
+    height: auto;
+    width: 40%;
+    margin: 0 auto;
+}
+
+.tag {
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+    display: inline-flex;
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 4rem;
+    max-width: 1024px;
+}
+
+.basic-info {
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    left: 1rem;
+}
+
+h2 {
+    padding-top: 1rem;
+    margin: 0 auto;
+    padding-bottom: 1rem;
+    
+}
+
+.willing {
+    font-size: 1.25rem;
+    font-style: italic;
+    padding-bottom: 1rem;
+}
+
+.availability {
+    font-weight: bold;
+    
+    color: #FF0000;
+}
+
+
+/* About */
+
+#language {
+    text-align: center;
+    padding-top: 32px;
+    color: white;
+}
+
+.about {
+    background-color: #0A0903;
+    margin-top: 32px;
+    padding-bottom: 16px;
+    height: auto;
+    width: 100%;
+    
+}
+
+.learned {
+    align-content: space-between;
+    margin: 0 auto;
+    display: flex;
+    max-width: 1024px;
+    flex-wrap: wrap;
+    columns: 3;
+    justify-content: space-around;
+}
+
+.info {
+    padding: 8px;
+    margin: 8px 8px;
+    border: black 1px solid;
+    text-align: left;
+    max-width: 30%;
+    min-width: 20%;
+    background-color: white;
+    
+}
+
+#course {
+    margin-top: 0px;
+    padding-top: 0;
+    font-weight: 100;
+}
+
+#program-img {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+#course-name {
+    text-align: left;
+    font-weight: bold;
+}
+
+#link {
+    color: blue;
+    text-decoration: underline;
+}
+
+#learned-info {
+    text-decoration: underline;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+/* Email Button */
+
+.interested {
+    font-size: 1.5rem;
+}
+
+.button {
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 1rem 1.5rem;
+    font-size: 1.25rem;
+    font-style: italic;
+    margin: 0 1em;
+    min-width: 10em;
+    padding: 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.email {
+    text-align: center;
+    margin: 2rem;
+    display: block;
+    align-items: center;
+}
+
+.button:hover {
+    background-color: 	#FFC100;
+    cursor: pointer;
+}
+
+
+/* LinkedIn */
+
+.social {
+    text-align: center;
+}
+
+
+/* Footer */
+
+footer {
+    position: relative;
+    bottom: 0;
+    height: 2rem;
+    text-align: center;
+    margin-top: 2rem;
+    padding-top: 1rem;
+    z-index: 3;
+    background-color: #E6E8E6;
+    width: 100%;
+}
+
+@media only screen and (max-width: 580px) {
+    
+        body {
+            height: auto;
+        }
+
+        header {
+            display: none;
+            
+        }
+
+        h1 {
+            position: static;
+            background-color: white;
+            width: 100%;
+            padding-bottom: 2rem;
+        }
+        
+        .tag {
+            width: 99%;
+            padding-top: 1rem;
+            
+        }
+
+        .img-container {
+            display: none;
+        }
+
+        .basic-info {
+            width: 90%;
+            position: absolute;
+            margin: 0 auto;
+            text-align: center;
+            
+        }
+
+        .about {
+            position: relative;
+            top: 12rem;
+            
+        }
+
+        .email {
+            padding-top: 12rem;
+        }
+
+        
+          
+    }

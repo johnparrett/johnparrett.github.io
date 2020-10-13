@@ -439,13 +439,13 @@ footer {
             display: none;
         } */
     
-        .basic-info {
+        /* .basic-info {
             width: 75%;
             position: absolute;
             margin: 0 auto;
             text-align: center;
             padding-bottom: 4rem;
-        }
+        } */
     
         .info {
             padding-bottom: 3rem;

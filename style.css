@@ -337,10 +337,10 @@ footer {
     }
 
     .tag {
-        width: 99%;
-        padding-top: 1rem;
-        padding-bottom: 10rem;
-        margin: 0 auto;
+        width: 75%;
+        padding: 1rem 0rem 10rem 0rem;
+        
+        
     }
 
     .img-container {
@@ -352,7 +352,6 @@ footer {
         position: absolute;
         margin: 0 auto;
         text-align: center;
-        
     }
 
     .info {
@@ -372,12 +371,12 @@ footer {
     .about {
         position: relative;
         top: 12rem;
-        
         padding-bottom: 2rem;
     }
 
     .email {
         padding-top: 14rem;
+        width: 100%;
     }
           
     }
@@ -387,6 +386,21 @@ footer {
     and (device-height : 896px) 
     and (-webkit-device-pixel-ratio : 2) {
        
+        .about {
+            padding-bottom: 7rem;
+        }
+    
+        .info {
+            padding-bottom: 2rem;
+        }
+    
+        .tag {
+            padding-left: 0;
+        }
+    }
+    
+    @media only screen and (max-width: 580px) {
+        
         #program-img {
             height: 12rem;
         }
@@ -410,10 +424,10 @@ footer {
         }
     
         .tag {
-            width: 99%;
-            padding-top: 1rem;
-            padding-bottom: 10rem;
-            margin: 0 auto;
+            width: 75%;
+            padding: 1rem 0rem 10rem 0rem;
+            
+            
         }
     
         .img-container {
@@ -425,7 +439,6 @@ footer {
             position: absolute;
             margin: 0 auto;
             text-align: center;
-            
         }
     
         .info {
@@ -436,7 +449,7 @@ footer {
             font-size: 1.5rem;
             color: #BEBBBB;
         }
-
+    
         .learned {
             display: flex;
             flex-wrap: wrap;
@@ -445,19 +458,32 @@ footer {
         .about {
             position: relative;
             top: 12rem;
-            display: flex;
-            width: 90%;
-            margin: 0 auto;
             padding-bottom: 2rem;
         }
     
         .email {
             padding-top: 14rem;
+            width: 100%;
         }
     }
 
       
     @media only screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio : 3) {
+        .about {
+            padding-bottom: 7rem;
+        }
+    
+        .info {
+            padding-bottom: 2rem;
+        }
+    
+        .tag {
+            padding-left: 0;
+        }
+    }
+    
+    @media only screen and (max-width: 580px) {
+        
         #program-img {
             height: 12rem;
         }
@@ -481,10 +507,10 @@ footer {
         }
     
         .tag {
-            width: 99%;
-            padding-top: 1rem;
-            padding-bottom: 10rem;
-            margin: 0 auto;
+            width: 75%;
+            padding: 1rem 0rem 10rem 0rem;
+            
+            
         }
     
         .img-container {
@@ -496,7 +522,6 @@ footer {
             position: absolute;
             margin: 0 auto;
             text-align: center;
-            
         }
     
         .info {
@@ -507,7 +532,7 @@ footer {
             font-size: 1.5rem;
             color: #BEBBBB;
         }
-
+    
         .learned {
             display: flex;
             flex-wrap: wrap;
@@ -516,18 +541,31 @@ footer {
         .about {
             position: relative;
             top: 12rem;
-            display: flex;
-            width: 90%;
-            margin: 0 auto;
             padding-bottom: 2rem;
         }
     
         .email {
             padding-top: 14rem;
+            width: 100%;
         }
     }
 
     @media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+        .about {
+            padding-bottom: 7rem;
+        }
+    
+        .info {
+            padding-bottom: 2rem;
+        }
+    
+        .tag {
+            padding-left: 0;
+        }
+    }
+    
+    @media only screen and (max-width: 580px) {
+        
         #program-img {
             height: 12rem;
         }
@@ -551,10 +589,10 @@ footer {
         }
     
         .tag {
-            width: 99%;
-            padding-top: 1rem;
-            padding-bottom: 10rem;
-            margin: 0 auto;
+            width: 75%;
+            padding: 1rem 0rem 10rem 0rem;
+            
+            
         }
     
         .img-container {
@@ -566,7 +604,6 @@ footer {
             position: absolute;
             margin: 0 auto;
             text-align: center;
-            
         }
     
         .info {
@@ -577,7 +614,7 @@ footer {
             font-size: 1.5rem;
             color: #BEBBBB;
         }
-
+    
         .learned {
             display: flex;
             flex-wrap: wrap;
@@ -586,18 +623,31 @@ footer {
         .about {
             position: relative;
             top: 12rem;
-            display: flex;
-            width: 90%;
-            margin: 0 auto;
             padding-bottom: 2rem;
         }
     
         .email {
             padding-top: 14rem;
+            width: 100%;
         }
     }
     
     @media only screen and (min-device-width : 375px) and (max-device-width : 812px) and (-webkit-device-pixel-ratio : 3) {
+        .about {
+            padding-bottom: 7rem;
+        }
+    
+        .info {
+            padding-bottom: 2rem;
+        }
+    
+        .tag {
+            padding-left: 0;
+        }
+    }
+    
+    @media only screen and (max-width: 580px) {
+        
         #program-img {
             height: 12rem;
         }
@@ -621,10 +671,10 @@ footer {
         }
     
         .tag {
-            width: 99%;
-            padding-top: 1rem;
-            padding-bottom: 10rem;
-            margin: 0 auto;
+            width: 75%;
+            padding: 1rem 0rem 10rem 0rem;
+            
+            
         }
     
         .img-container {
@@ -636,7 +686,6 @@ footer {
             position: absolute;
             margin: 0 auto;
             text-align: center;
-            
         }
     
         .info {
@@ -647,7 +696,7 @@ footer {
             font-size: 1.5rem;
             color: #BEBBBB;
         }
-
+    
         .learned {
             display: flex;
             flex-wrap: wrap;
@@ -656,14 +705,12 @@ footer {
         .about {
             position: relative;
             top: 12rem;
-            display: flex;
-            width: 90%;
-            margin: 0 auto;
             padding-bottom: 2rem;
         }
     
         .email {
             padding-top: 14rem;
+            width: 100%;
         }
     }
 

@@ -58,6 +58,7 @@ h1 {
     padding-top: 2rem;
     text-align: center;
     font-variant: small-caps;
+    font-size: 3rem;
 }
 
 
@@ -74,8 +75,10 @@ h1 {
 
 .img-container {
     height: auto;
-    width: 40%;
+    width: 45%;
     margin: 0 auto;
+    padding: 2.5%;
+    
 }
 
 .tag {
@@ -83,18 +86,19 @@ h1 {
     width: 80%;
     text-align: center;
     margin: 0 auto;
-    padding: 3rem 4rem 3rem 5rem;
+    padding: 3rem;
     max-width: 1024px;
     position: relative;
-    left: 2.5rem;
+    left: 3rem;
 }
 
 .basic-info {
-    width: 50%;
+    width: 45%;
     margin: 0 auto;
     text-align: center;
     position: relative;
-    left: 2rem;
+    left: 3rem;
+    padding: 2.5%;
 }
 
 h2 {

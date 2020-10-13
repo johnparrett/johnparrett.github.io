@@ -400,13 +400,13 @@ footer {
        
         /* #home {
             background-image: none;
-        }
+        } */
     
         #program-img {
             height: 12rem;
         }
     
-        body {
+        /* body {
             width: 100%;
             height: auto;
             margin: 0 auto;
@@ -456,18 +456,20 @@ footer {
             color: #BEBBBB;
         }
     
-        /* .learned {
+        .learned {
             display: flex;
             flex-wrap: wrap;
         }
-    
-        .about {
-            position: relative;
-            top: 12rem;
-            padding-bottom: 2rem;
+
+        #learned-info {
+            font-size: 1.5rem;
         }
     
-        .email {
+        .about {
+            padding-bottom: 10rem;
+        }
+    
+        /* .email {
             padding-top: 14rem;
             width: 100%;
         } */

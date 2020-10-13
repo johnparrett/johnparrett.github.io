@@ -295,6 +295,9 @@ footer {
     background-image: url('https://www.appliedimage.com/wp-content/uploads/2014/02/Header-background.jpg');
 }
 
+/* media queries */
+
+
 @media only screen and (max-width: 900px) and (min-width: 580px) {
    .about {
         padding-bottom: 7rem;
@@ -359,12 +362,17 @@ footer {
         color: #BEBBBB;
     }
 
+    .learned {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
     .about {
         position: relative;
         top: 12rem;
         display: block;
-            width: 90%;
-            margin: 0 auto;
+        width: 90%;
+        margin: 0 auto;
         padding-bottom: 2rem;
     }
 
@@ -423,14 +431,19 @@ footer {
         }
     
         #course-info {
-            font-size: 1.25rem;
+            font-size: 1.5rem;
             color: #BEBBBB;
+        }
+
+        .learned {
+            display: flex;
+            flex-wrap: wrap;
         }
     
         .about {
             position: relative;
             top: 12rem;
-            display: block;
+            display: flex;
             width: 90%;
             margin: 0 auto;
             padding-bottom: 2rem;
@@ -479,7 +492,6 @@ footer {
             position: absolute;
             margin: 0 auto;
             text-align: center;
-            
         }
     
         .info {
@@ -487,8 +499,13 @@ footer {
         }
     
         #course-info {
-            font-size: 1.25rem;
+            font-size: 1.5rem;
             color: #BEBBBB;
+        }
+
+        .learned {
+            display: flex;
+            flex-wrap: wrap;
         }
     
         .about {
@@ -542,7 +559,6 @@ footer {
             position: absolute;
             margin: 0 auto;
             text-align: center;
-            
         }
     
         .info {
@@ -552,6 +568,11 @@ footer {
         #course-info {
             font-size: 1.25rem;
             color: #BEBBBB;
+        }
+
+        .learned {
+            display: flex;
+            flex-wrap: wrap;
         }
     
         .about {
@@ -605,7 +626,6 @@ footer {
             position: absolute;
             margin: 0 auto;
             text-align: center;
-            
         }
     
         .info {
@@ -613,8 +633,13 @@ footer {
         }
     
         #course-info {
-            font-size: 1.25rem;
+            font-size: 1.5rem;
             color: #BEBBBB;
+        }
+
+        .learned {
+            display: flex;
+            flex-wrap: wrap;
         }
     
         .about {

@@ -342,7 +342,7 @@ footer {
 
     .tag {
         width: 75%;
-        padding: 1rem 0rem 10rem 0rem;
+        padding: 0rem 0rem 10rem 0rem;
         
     }
 
@@ -351,11 +351,11 @@ footer {
     }
 
     .basic-info {
-        width: 60%;
+        width: 75%;
         position: absolute;
         margin: 0 auto;
         text-align: center;
-        
+        padding-bottom: 4rem;
     }
 
     .info {

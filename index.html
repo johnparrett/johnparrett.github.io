@@ -36,24 +36,16 @@
 
     <script language="JavaScript" type="text/JavaScript">
         
-        function displayNextImage() {
-              x = (x === images.length - 1) ? 0 : x + 1;
-              document.getElementById("img").src = images[x];
-          }
+        var imageSources = ["https://images.unsplash.com/photo-1487017159836-4e23ece2e4cf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=751&q=80", "https://images.unsplash.com/photo-1545665277-5937489579f2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80", "https://images.unsplash.com/photo-1508317469940-e3de49ba902e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80", "https://us.123rf.com/450wm/scyther5/scyther51703/scyther5170300292/74151794-developer-development-web-code-tech-coding-program-programming-html-screen-script-internet-professio.jpg?ver=6", "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60"]
 
-          function displayPreviousImage() {
-              x = (x <= 0) ? images.length - 1 : x - 1;
-              document.getElementById("img").src = images[x];
-          }
-
-          function startTimer() {
-              setInterval(displayNextImage, 5000);
-          }
-
-          var images = [], x = -1;
-          images[0] = "https://images.unsplash.com/photo-1487017159836-4e23ece2e4cf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=751&q=80";
-          images[1] = "https://images.unsplash.com/photo-1545665277-5937489579f2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80";
-          images[2] = "https://images.unsplash.com/photo-1508317469940-e3de49ba902e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80";
+        var index = 0;
+        setInterval (function(){
+            if (index === imageSources.length) {
+            index = 0;
+            }
+            document.getElementById("img").src = imageSources[index];
+            index++;
+            } , 5000);
 
     </script>
 </head>
@@ -82,12 +74,12 @@
         
 
         <div class="basic-info">
-            <h2>I am a front-end developer, currently located in <br>Columbus, Ohio</h2>
+            <h2>I am a front-end developer, currently located in Columbus, Ohio</h2>
             
             
             <p class="willing">Willing to relocate</p>
             
-            <p class="availability">I am available for remote work <br>and freelance projects</p>
+            <p class="availability">I am available for remote work and freelance projects</p>
             
             
         </div>

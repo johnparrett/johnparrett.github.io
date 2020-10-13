@@ -488,6 +488,7 @@ footer {
             padding-bottom: 8rem;
             padding-left: 0rem;
             padding-right: 0rem;
+            text-align: center;
     }
     
         .img-container {
@@ -499,6 +500,7 @@ footer {
             position: absolute;
             margin: 0 auto;
             text-align: center;
+            
         }
     
         .info {

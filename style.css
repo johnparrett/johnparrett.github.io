@@ -284,6 +284,10 @@ footer {
 
 @media only screen and (max-width: 580px) {
     
+    #program-img {
+        height: 12rem;
+    }
+
     body {
         width: 99%;
         height: auto;
@@ -320,7 +324,12 @@ footer {
     }
 
     .info {
-        padding-bottom: 10rem;
+        padding-bottom: 3rem;
+    }
+
+    #course-info {
+        font-size: 1.25rem;
+        color: #BEBBBB;
     }
 
     .about {
@@ -367,6 +376,252 @@ footer {
       }
 
 
+      @media only screen 
+    and (device-width : 414px) 
+    and (device-height : 896px) 
+    and (-webkit-device-pixel-ratio : 2) {
+       
+        #program-img {
+            height: 12rem;
+        }
+    
+        body {
+            width: 99%;
+            height: auto;
+        }
+    
+        header {
+            display: none;
+    
+        }
+    
+        h1 {
+            position: static;
+            background-color: white;
+            width: 100%;
+            padding-bottom: 2rem;
+        }
+    
+        .tag {
+            width: 99%;
+            padding-top: 1rem;
+            padding-bottom: 10rem;
+        }
+    
+        .img-container {
+            display: none;
+        }
+    
+        .basic-info {
+            width: 50%;
+            position: absolute;
+            margin: 0 auto;
+            text-align: center;
+            
+        }
+    
+        .info {
+            padding-bottom: 3rem;
+        }
+    
+        #course-info {
+            font-size: 1.25rem;
+            color: #BEBBBB;
+        }
+    
+        .about {
+            position: relative;
+            top: 12rem;
+            
+            padding-bottom: 2rem;
+        }
+    
+        .email {
+            padding-top: 14rem;
+        }
+    }
+
       
-      
-      
+    @media only screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio : 3) {
+        #program-img {
+            height: 12rem;
+        }
+    
+        body {
+            width: 99%;
+            height: auto;
+        }
+    
+        header {
+            display: none;
+    
+        }
+    
+        h1 {
+            position: static;
+            background-color: white;
+            width: 100%;
+            padding-bottom: 2rem;
+        }
+    
+        .tag {
+            width: 99%;
+            padding-top: 1rem;
+            padding-bottom: 10rem;
+        }
+    
+        .img-container {
+            display: none;
+        }
+    
+        .basic-info {
+            width: 50%;
+            position: absolute;
+            margin: 0 auto;
+            text-align: center;
+            
+        }
+    
+        .info {
+            padding-bottom: 3rem;
+        }
+    
+        #course-info {
+            font-size: 1.25rem;
+            color: #BEBBBB;
+        }
+    
+        .about {
+            position: relative;
+            top: 12rem;
+            
+            padding-bottom: 2rem;
+        }
+    
+        .email {
+            padding-top: 14rem;
+        }
+    }
+
+    @media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+        #program-img {
+            height: 12rem;
+        }
+    
+        body {
+            width: 99%;
+            height: auto;
+        }
+    
+        header {
+            display: none;
+    
+        }
+    
+        h1 {
+            position: static;
+            background-color: white;
+            width: 100%;
+            padding-bottom: 2rem;
+        }
+    
+        .tag {
+            width: 99%;
+            padding-top: 1rem;
+            padding-bottom: 10rem;
+        }
+    
+        .img-container {
+            display: none;
+        }
+    
+        .basic-info {
+            width: 50%;
+            position: absolute;
+            margin: 0 auto;
+            text-align: center;
+            
+        }
+    
+        .info {
+            padding-bottom: 3rem;
+        }
+    
+        #course-info {
+            font-size: 1.25rem;
+            color: #BEBBBB;
+        }
+    
+        .about {
+            position: relative;
+            top: 12rem;
+            
+            padding-bottom: 2rem;
+        }
+    
+        .email {
+            padding-top: 14rem;
+        }
+    }
+    
+    @media only screen and (min-device-width : 375px) and (max-device-width : 812px) and (-webkit-device-pixel-ratio : 3) {
+        #program-img {
+            height: 12rem;
+        }
+    
+        body {
+            width: 99%;
+            height: auto;
+        }
+    
+        header {
+            display: none;
+    
+        }
+    
+        h1 {
+            position: static;
+            background-color: white;
+            width: 100%;
+            padding-bottom: 2rem;
+        }
+    
+        .tag {
+            width: 99%;
+            padding-top: 1rem;
+            padding-bottom: 10rem;
+        }
+    
+        .img-container {
+            display: none;
+        }
+    
+        .basic-info {
+            width: 50%;
+            position: absolute;
+            margin: 0 auto;
+            text-align: center;
+            
+        }
+    
+        .info {
+            padding-bottom: 3rem;
+        }
+    
+        #course-info {
+            font-size: 1.25rem;
+            color: #BEBBBB;
+        }
+    
+        .about {
+            position: relative;
+            top: 12rem;
+            
+            padding-bottom: 2rem;
+        }
+    
+        .email {
+            padding-top: 14rem;
+        }
+    }
+

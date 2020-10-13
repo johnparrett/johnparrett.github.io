@@ -344,7 +344,10 @@ footer {
     .tag {
         width: 75%;
         padding-top: 1rem;
-        padding-bottom: 8rem;
+        padding-bottom: 10rem;
+        text-align: center;
+        padding-left: 0rem;
+        padding-right: 0rem;
     }
 
     .img-container {
@@ -417,7 +420,10 @@ footer {
         .tag {
             width: 75%;
             padding-top: 1rem;
-            padding-bottom: 8rem;
+            padding-bottom: 10rem;
+            text-align: center;
+            padding-left: 0rem;
+            padding-right: 0rem;
         }
     
         .img-container {
@@ -485,10 +491,10 @@ footer {
         .tag {
             width: 75%;
             padding-top: 1rem;
-            padding-bottom: 8rem;
+            padding-bottom: 10rem;
+            text-align: center;
             padding-left: 0rem;
             padding-right: 0rem;
-            text-align: center;
     }
     
         .img-container {
@@ -556,7 +562,10 @@ footer {
         .tag {
             width: 75%;
             padding-top: 1rem;
-            padding-bottom: 8rem;
+            padding-bottom: 10rem;
+            text-align: center;
+            padding-left: 0rem;
+            padding-right: 0rem;
         }
         
     
@@ -625,7 +634,10 @@ footer {
         .tag {
             width: 75%;
             padding-top: 1rem;
-            padding-bottom: 8rem;
+            padding-bottom: 10rem;
+            text-align: center;
+            padding-left: 0rem;
+            padding-right: 0rem;
         }
         
     

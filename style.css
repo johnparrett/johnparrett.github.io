@@ -295,6 +295,10 @@ footer {
     background-image: url('https://www.appliedimage.com/wp-content/uploads/2014/02/Header-background.jpg');
 }
 
+
+
+
+
 /* media queries */
 
 
@@ -338,7 +342,7 @@ footer {
 
     .tag {
         width: 75%;
-        padding: 1rem 0rem 10rem 0rem;
+        padding-top: 1rem 0rem 10rem 0rem;
         
         
     }
@@ -386,21 +390,6 @@ footer {
     and (device-height : 896px) 
     and (-webkit-device-pixel-ratio : 2) {
        
-        .about {
-            padding-bottom: 7rem;
-        }
-    
-        .info {
-            padding-bottom: 2rem;
-        }
-    
-        .tag {
-            padding-left: 0;
-        }
-    }
-    
-    @media only screen and (max-width: 580px) {
-        
         #program-img {
             height: 12rem;
         }
@@ -425,7 +414,7 @@ footer {
     
         .tag {
             width: 75%;
-            padding: 1rem 0rem 10rem 0rem;
+            padding-top: 1rem 0rem 10rem 0rem;
             
             
         }
@@ -469,21 +458,6 @@ footer {
 
       
     @media only screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio : 3) {
-        .about {
-            padding-bottom: 7rem;
-        }
-    
-        .info {
-            padding-bottom: 2rem;
-        }
-    
-        .tag {
-            padding-left: 0;
-        }
-    }
-    
-    @media only screen and (max-width: 580px) {
-        
         #program-img {
             height: 12rem;
         }
@@ -508,7 +482,7 @@ footer {
     
         .tag {
             width: 75%;
-            padding: 1rem 0rem 10rem 0rem;
+            padding-top: 1rem 0rem 10rem 0rem;
             
             
         }
@@ -551,21 +525,6 @@ footer {
     }
 
     @media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
-        .about {
-            padding-bottom: 7rem;
-        }
-    
-        .info {
-            padding-bottom: 2rem;
-        }
-    
-        .tag {
-            padding-left: 0;
-        }
-    }
-    
-    @media only screen and (max-width: 580px) {
-        
         #program-img {
             height: 12rem;
         }
@@ -590,7 +549,7 @@ footer {
     
         .tag {
             width: 75%;
-            padding: 1rem 0rem 10rem 0rem;
+            padding-top: 1rem 0rem 10rem 0rem;
             
             
         }
@@ -633,21 +592,6 @@ footer {
     }
     
     @media only screen and (min-device-width : 375px) and (max-device-width : 812px) and (-webkit-device-pixel-ratio : 3) {
-        .about {
-            padding-bottom: 7rem;
-        }
-    
-        .info {
-            padding-bottom: 2rem;
-        }
-    
-        .tag {
-            padding-left: 0;
-        }
-    }
-    
-    @media only screen and (max-width: 580px) {
-        
         #program-img {
             height: 12rem;
         }
@@ -672,7 +616,7 @@ footer {
     
         .tag {
             width: 75%;
-            padding: 1rem 0rem 10rem 0rem;
+            padding-top: 1rem 0rem 10rem 0rem;
             
             
         }

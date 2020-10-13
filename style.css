@@ -98,19 +98,15 @@ h1 {
 h2 {
     padding-top: 1rem;
     margin: 0 auto;
-    padding-bottom: 1rem;
-    
 }
 
 .willing {
     font-size: 1.25rem;
-    font-style: italic;
-    padding-bottom: 1rem;
 }
 
 .availability {
     font-weight: bold;
-    
+    font-style: italic;
     color: #FF0000;
 }
 
@@ -128,7 +124,6 @@ h2 {
     margin-top: 32px;
     padding-bottom: 16px;
     height: auto;
-    width: 100%;
     
 }
 
@@ -238,55 +233,10 @@ footer {
     padding-top: 1rem;
     z-index: 3;
     background-color: #E6E8E6;
-    width: 100%;
 }
 
 @media only screen and (max-width: 580px) {
     
-        body {
-            height: auto;
-        }
-
-        header {
-            display: none;
-            
-        }
-
-        h1 {
-            position: static;
-            background-color: white;
-            width: 100%;
-            padding-bottom: 2rem;
-        }
-        
-        .tag {
-            width: 99%;
-            padding-top: 1rem;
-            
-        }
-
-        .img-container {
-            display: none;
-        }
-
-        .basic-info {
-            width: 90%;
-            position: absolute;
-            margin: 0 auto;
-            text-align: center;
-            
-        }
-
-        .about {
-            position: relative;
-            top: 12rem;
-            
-        }
-
-        .email {
-            padding-top: 12rem;
-        }
-
         
           
     }

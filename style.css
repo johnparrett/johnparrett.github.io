@@ -338,12 +338,13 @@ footer {
         width: 100%;
         padding-bottom: 2rem;
         margin: 0 auto;
+        padding-top: 0rem;
     }
 
     .tag {
         width: 75%;
-        padding: 0rem 0rem 10rem 0rem;
-        
+        padding-top: 1rem;
+        padding-bottom: 8rem;
     }
 
     .img-container {
@@ -410,12 +411,13 @@ footer {
             width: 100%;
             padding-bottom: 2rem;
             margin: 0 auto;
+            padding-top: 0rem;
         }
     
         .tag {
             width: 75%;
             padding-top: 1rem;
-            padding-bottom: 10rem;
+            padding-bottom: 8rem;
         }
     
         .img-container {
@@ -477,14 +479,14 @@ footer {
             width: 100%;
             padding-bottom: 2rem;
             margin: 0 auto;
-        }
-    
+            padding-top: 0rem;
+    }
+
         .tag {
             width: 75%;
-            padding: 1rem 0rem 10rem 0rem;
-            
-            
-        }
+            padding-top: 1rem;
+            padding-bottom: 8rem;
+    }
     
         .img-container {
             display: none;
@@ -544,14 +546,15 @@ footer {
             width: 100%;
             padding-bottom: 2rem;
             margin: 0 auto;
+            padding-top: 0rem;
         }
     
         .tag {
             width: 75%;
-            padding: 1rem 0rem 10rem 0rem;
-            
-            
+            padding-top: 1rem;
+            padding-bottom: 8rem;
         }
+        
     
         .img-container {
             display: none;
@@ -611,14 +614,16 @@ footer {
             width: 100%;
             padding-bottom: 2rem;
             margin: 0 auto;
+            padding-top: 0rem;
+            padding-top: 0rem;
         }
     
         .tag {
             width: 75%;
-            padding: 1rem 0rem 10rem 0rem;
-            
-            
+            padding-top: 1rem;
+            padding-bottom: 8rem;
         }
+        
     
         .img-container {
             display: none;

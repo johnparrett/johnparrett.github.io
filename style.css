@@ -342,8 +342,7 @@ footer {
 
     .tag {
         width: 75%;
-        padding-top: 1rem 0rem 10rem 0rem;
-        
+        padding: 1rem 0rem 10rem 0rem;
         
     }
 
@@ -356,6 +355,7 @@ footer {
         position: absolute;
         margin: 0 auto;
         text-align: center;
+        
     }
 
     .info {
@@ -414,7 +414,7 @@ footer {
     
         .tag {
             width: 75%;
-            padding-top: 1rem 0rem 10rem 0rem;
+            padding: 1rem 0rem 10rem 0rem;
         }
     
         .img-container {
@@ -480,7 +480,7 @@ footer {
     
         .tag {
             width: 75%;
-            padding-top: 1rem 0rem 10rem 0rem;
+            padding: 1rem 0rem 10rem 0rem;
             
             
         }
@@ -547,7 +547,7 @@ footer {
     
         .tag {
             width: 75%;
-            padding-top: 1rem 0rem 10rem 0rem;
+            padding: 1rem 0rem 10rem 0rem;
             
             
         }
@@ -614,7 +614,7 @@ footer {
     
         .tag {
             width: 75%;
-            padding-top: 1rem 0rem 10rem 0rem;
+            padding: 1rem 0rem 10rem 0rem;
             
             
         }

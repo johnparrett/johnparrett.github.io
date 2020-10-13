@@ -319,13 +319,13 @@ footer {
     }
 
     body {
-        width: 99%;
+        width: 100%;
         height: auto;
+        margin: 0 auto;
     }
 
     header {
         display: none;
-
     }
 
     h1 {
@@ -333,12 +333,14 @@ footer {
         background-color: white;
         width: 100%;
         padding-bottom: 2rem;
+        margin: 0 auto;
     }
 
     .tag {
         width: 99%;
         padding-top: 1rem;
         padding-bottom: 10rem;
+        margin: 0 auto;
     }
 
     .img-container {
@@ -346,7 +348,7 @@ footer {
     }
 
     .basic-info {
-        width: 50%;
+        width: 60%;
         position: absolute;
         margin: 0 auto;
         text-align: center;
@@ -358,7 +360,7 @@ footer {
     }
 
     #course-info {
-        font-size: 1.25rem;
+        font-size: 1.5rem;
         color: #BEBBBB;
     }
 
@@ -370,9 +372,7 @@ footer {
     .about {
         position: relative;
         top: 12rem;
-        display: block;
-        width: 90%;
-        margin: 0 auto;
+        
         padding-bottom: 2rem;
     }
 
@@ -394,11 +394,11 @@ footer {
         body {
             width: 100%;
             height: auto;
+            margin: 0 auto;
         }
     
         header {
             display: none;
-    
         }
     
         h1 {
@@ -406,12 +406,14 @@ footer {
             background-color: white;
             width: 100%;
             padding-bottom: 2rem;
+            margin: 0 auto;
         }
     
         .tag {
             width: 99%;
             padding-top: 1rem;
             padding-bottom: 10rem;
+            margin: 0 auto;
         }
     
         .img-container {
@@ -419,7 +421,7 @@ footer {
         }
     
         .basic-info {
-            width: 50%;
+            width: 60%;
             position: absolute;
             margin: 0 auto;
             text-align: center;
@@ -463,11 +465,11 @@ footer {
         body {
             width: 100%;
             height: auto;
+            margin: 0 auto;
         }
     
         header {
             display: none;
-    
         }
     
         h1 {
@@ -475,12 +477,14 @@ footer {
             background-color: white;
             width: 100%;
             padding-bottom: 2rem;
+            margin: 0 auto;
         }
     
         .tag {
             width: 99%;
             padding-top: 1rem;
             padding-bottom: 10rem;
+            margin: 0 auto;
         }
     
         .img-container {
@@ -488,10 +492,11 @@ footer {
         }
     
         .basic-info {
-            width: 50%;
+            width: 60%;
             position: absolute;
             margin: 0 auto;
             text-align: center;
+            
         }
     
         .info {
@@ -511,7 +516,7 @@ footer {
         .about {
             position: relative;
             top: 12rem;
-            display: block;
+            display: flex;
             width: 90%;
             margin: 0 auto;
             padding-bottom: 2rem;
@@ -530,11 +535,11 @@ footer {
         body {
             width: 100%;
             height: auto;
+            margin: 0 auto;
         }
     
         header {
             display: none;
-    
         }
     
         h1 {
@@ -542,12 +547,14 @@ footer {
             background-color: white;
             width: 100%;
             padding-bottom: 2rem;
+            margin: 0 auto;
         }
     
         .tag {
             width: 99%;
             padding-top: 1rem;
             padding-bottom: 10rem;
+            margin: 0 auto;
         }
     
         .img-container {
@@ -555,77 +562,11 @@ footer {
         }
     
         .basic-info {
-            width: 50%;
+            width: 60%;
             position: absolute;
             margin: 0 auto;
             text-align: center;
-        }
-    
-        .info {
-            padding-bottom: 3rem;
-        }
-    
-        #course-info {
-            font-size: 1.25rem;
-            color: #BEBBBB;
-        }
-
-        .learned {
-            display: flex;
-            flex-wrap: wrap;
-        }
-    
-        .about {
-            position: relative;
-            top: 12rem;
-            display: block;
-            width: 90%;
-            margin: 0 auto;
-            padding-bottom: 2rem;
-        }
-    
-        .email {
-            padding-top: 14rem;
-        }
-    }
-    
-    @media only screen and (min-device-width : 375px) and (max-device-width : 812px) and (-webkit-device-pixel-ratio : 3) {
-        #program-img {
-            height: 12rem;
-        }
-    
-        body {
-            width: 100%;
-            height: auto;
-        }
-    
-        header {
-            display: none;
-    
-        }
-    
-        h1 {
-            position: static;
-            background-color: white;
-            width: 100%;
-            padding-bottom: 2rem;
-        }
-    
-        .tag {
-            width: 99%;
-            padding-top: 1rem;
-            padding-bottom: 10rem;
-        }
-    
-        .img-container {
-            display: none;
-        }
-    
-        .basic-info {
-            width: 50%;
-            position: absolute;
-            margin: 0 auto;
-            text-align: center;
+            
         }
     
         .info {
@@ -645,7 +586,77 @@ footer {
         .about {
             position: relative;
             top: 12rem;
-            display: block;
+            display: flex;
+            width: 90%;
+            margin: 0 auto;
+            padding-bottom: 2rem;
+        }
+    
+        .email {
+            padding-top: 14rem;
+        }
+    }
+    
+    @media only screen and (min-device-width : 375px) and (max-device-width : 812px) and (-webkit-device-pixel-ratio : 3) {
+        #program-img {
+            height: 12rem;
+        }
+    
+        body {
+            width: 100%;
+            height: auto;
+            margin: 0 auto;
+        }
+    
+        header {
+            display: none;
+        }
+    
+        h1 {
+            position: static;
+            background-color: white;
+            width: 100%;
+            padding-bottom: 2rem;
+            margin: 0 auto;
+        }
+    
+        .tag {
+            width: 99%;
+            padding-top: 1rem;
+            padding-bottom: 10rem;
+            margin: 0 auto;
+        }
+    
+        .img-container {
+            display: none;
+        }
+    
+        .basic-info {
+            width: 60%;
+            position: absolute;
+            margin: 0 auto;
+            text-align: center;
+            
+        }
+    
+        .info {
+            padding-bottom: 3rem;
+        }
+    
+        #course-info {
+            font-size: 1.5rem;
+            color: #BEBBBB;
+        }
+
+        .learned {
+            display: flex;
+            flex-wrap: wrap;
+        }
+    
+        .about {
+            position: relative;
+            top: 12rem;
+            display: flex;
             width: 90%;
             margin: 0 auto;
             padding-bottom: 2rem;

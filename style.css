@@ -398,6 +398,10 @@ footer {
     and (device-height : 896px) 
     and (-webkit-device-pixel-ratio : 2) {
        
+        #home {
+            background-image: none;
+        }
+    
         #program-img {
             height: 12rem;
         }
@@ -423,7 +427,7 @@ footer {
     
         .tag {
             width: 75%;
-            padding-top: 1rem;
+            padding-top: 0rem;
             padding-bottom: 10rem;
             text-align: center;
             padding-left: 0rem;
@@ -435,10 +439,11 @@ footer {
         }
     
         .basic-info {
-            width: 60%;
+            width: 75%;
             position: absolute;
             margin: 0 auto;
             text-align: center;
+            padding-bottom: 4rem;
         }
     
         .info {
@@ -469,6 +474,10 @@ footer {
 
       
     @media only screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio : 3) {
+        #home {
+            background-image: none;
+        }
+    
         #program-img {
             height: 12rem;
         }
@@ -490,27 +499,27 @@ footer {
             padding-bottom: 2rem;
             margin: 0 auto;
             padding-top: 0rem;
-    }
-
+        }
+    
         .tag {
             width: 75%;
-            padding-top: 1rem;
+            padding-top: 0rem;
             padding-bottom: 10rem;
             text-align: center;
             padding-left: 0rem;
             padding-right: 0rem;
-    }
+        }
     
         .img-container {
             display: none;
         }
     
         .basic-info {
-            width: 60%;
+            width: 75%;
             position: absolute;
             margin: 0 auto;
             text-align: center;
-            
+            padding-bottom: 4rem;
         }
     
         .info {
@@ -540,6 +549,10 @@ footer {
     }
 
     @media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+        #home {
+            background-image: none;
+        }
+    
         #program-img {
             height: 12rem;
         }
@@ -565,23 +578,23 @@ footer {
     
         .tag {
             width: 75%;
-            padding-top: 1rem;
+            padding-top: 0rem;
             padding-bottom: 10rem;
             text-align: center;
             padding-left: 0rem;
             padding-right: 0rem;
         }
-        
     
         .img-container {
             display: none;
         }
     
         .basic-info {
-            width: 60%;
+            width: 75%;
             position: absolute;
             margin: 0 auto;
             text-align: center;
+            padding-bottom: 4rem;
         }
     
         .info {
@@ -611,6 +624,10 @@ footer {
     }
     
     @media only screen and (min-device-width : 375px) and (max-device-width : 812px) and (-webkit-device-pixel-ratio : 3) {
+        #home {
+            background-image: none;
+        }
+    
         #program-img {
             height: 12rem;
         }
@@ -632,28 +649,27 @@ footer {
             padding-bottom: 2rem;
             margin: 0 auto;
             padding-top: 0rem;
-            padding-top: 0rem;
         }
     
         .tag {
             width: 75%;
-            padding-top: 1rem;
+            padding-top: 0rem;
             padding-bottom: 10rem;
             text-align: center;
             padding-left: 0rem;
             padding-right: 0rem;
         }
-        
     
         .img-container {
             display: none;
         }
     
         .basic-info {
-            width: 60%;
+            width: 75%;
             position: absolute;
             margin: 0 auto;
             text-align: center;
+            padding-bottom: 4rem;
         }
     
         .info {

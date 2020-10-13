@@ -69,6 +69,7 @@ h1 {
     background-repeat: repeat;
     position: relative;
     top: 4rem;
+    width: 100%;
 }
 
 .img-container {
@@ -82,16 +83,17 @@ h1 {
     width: 90%;
     text-align: center;
     margin: 0 auto;
-    padding: 3rem;
+    padding: 3rem 4rem 3rem 4rem;
     max-width: 1024px;
+    position: relative;
+    left: 4rem;
 }
 
 .basic-info {
     width: 40%;
     margin: 0 auto;
     text-align: center;
-    position: relative;
-    left: 1rem;
+    
 }
 
 h2 {
@@ -330,3 +332,8 @@ footer {
         background-image: linear-gradient(to bottom, #505050, black);
         text-decoration: none;
       }
+
+
+      
+      
+      

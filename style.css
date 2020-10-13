@@ -48,6 +48,33 @@ header {
     cursor: default;
 }
 
+.btn {
+    background: black;
+    background-image: -webkit-linear-gradient(top, black, #505050);
+    background-image: -moz-linear-gradient(top, black, #505050);
+    background-image: -ms-linear-gradient(top, black, #505050);
+    background-image: -o-linear-gradient(top, black, #505050);
+    background-image: linear-gradient(to bottom, black, #505050);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #505050;
+    background-image: -webkit-linear-gradient(top, #505050, black);
+    background-image: -moz-linear-gradient(top, #505050, black);
+    background-image: -ms-linear-gradient(top, #505050, black);
+    background-image: -o-linear-gradient(top, #505050, black);
+    background-image: linear-gradient(to bottom, #505050, black);
+    text-decoration: none;
+  }
+
 .joke {
     cursor: default;
 }
@@ -335,7 +362,9 @@ footer {
     .about {
         position: relative;
         top: 12rem;
-        
+        display: block;
+            width: 90%;
+            margin: 0 auto;
         padding-bottom: 2rem;
     }
 
@@ -344,37 +373,6 @@ footer {
     }
           
     }
-
-
-
-
-    .btn {
-        background: black;
-        background-image: -webkit-linear-gradient(top, black, #505050);
-        background-image: -moz-linear-gradient(top, black, #505050);
-        background-image: -ms-linear-gradient(top, black, #505050);
-        background-image: -o-linear-gradient(top, black, #505050);
-        background-image: linear-gradient(to bottom, black, #505050);
-        -webkit-border-radius: 28;
-        -moz-border-radius: 28;
-        border-radius: 28px;
-        font-family: Arial;
-        color: #ffffff;
-        font-size: 20px;
-        padding: 10px 20px 10px 20px;
-        text-decoration: none;
-      }
-      
-      .btn:hover {
-        background: #505050;
-        background-image: -webkit-linear-gradient(top, #505050, black);
-        background-image: -moz-linear-gradient(top, #505050, black);
-        background-image: -ms-linear-gradient(top, #505050, black);
-        background-image: -o-linear-gradient(top, #505050, black);
-        background-image: linear-gradient(to bottom, #505050, black);
-        text-decoration: none;
-      }
-
 
       @media only screen 
     and (device-width : 414px) 
@@ -386,7 +384,7 @@ footer {
         }
     
         body {
-            width: 99%;
+            width: 100%;
             height: auto;
         }
     
@@ -432,7 +430,9 @@ footer {
         .about {
             position: relative;
             top: 12rem;
-            
+            display: block;
+            width: 90%;
+            margin: 0 auto;
             padding-bottom: 2rem;
         }
     
@@ -448,7 +448,7 @@ footer {
         }
     
         body {
-            width: 99%;
+            width: 100%;
             height: auto;
         }
     
@@ -494,7 +494,9 @@ footer {
         .about {
             position: relative;
             top: 12rem;
-            
+            display: block;
+            width: 90%;
+            margin: 0 auto;
             padding-bottom: 2rem;
         }
     
@@ -509,7 +511,7 @@ footer {
         }
     
         body {
-            width: 99%;
+            width: 100%;
             height: auto;
         }
     
@@ -555,7 +557,9 @@ footer {
         .about {
             position: relative;
             top: 12rem;
-            
+            display: block;
+            width: 90%;
+            margin: 0 auto;
             padding-bottom: 2rem;
         }
     
@@ -570,7 +574,7 @@ footer {
         }
     
         body {
-            width: 99%;
+            width: 100%;
             height: auto;
         }
     
@@ -616,7 +620,9 @@ footer {
         .about {
             position: relative;
             top: 12rem;
-            
+            display: block;
+            width: 90%;
+            margin: 0 auto;
             padding-bottom: 2rem;
         }
     

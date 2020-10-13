@@ -129,7 +129,7 @@ h2 {
 
 .about {
     background-image: url('data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxITEhUTExIVFRUXGBoXFRUXFxcXFxcVGBoYFxgXFxcYHSggGBolGxgaITEhJSkrLi4uFx8zODMtNygtLisBCgoKBQUFDgUFDisZExkrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrK//AABEIAMIBAwMBIgACEQEDEQH/xAAaAAEBAQEBAQEAAAAAAAAAAAAEAwIAAQUH/8QAMRAAAgADBQgDAAICAgMAAAAAAAECAzERIXGB8AQiQVFhkbHBMqHREuFy8ULCExSC/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/APyiNkoneWmQKoeaqa5ANhhssw9EooXb0u+iqosPSPbQC2PPX4V2Xjiea1riUkK94gVhVn2YnqhtvwTn8AMbPXJlWtZk9n+Tz9FInruBmZ8XgHgssu5CZy3HgwssCcHPoUhRKCK6wtKrroBSQrW8LhEEtVD7O954CYorwIzaB4VvLH2Jm0zDQ1WIDI1cFhFOgdUA3Mj/AIpdbff9CVDuoPPVuSEwvdWCAxE7EFmXsVFTsEiqBbZXc8S8K8BZFBUtgR2qi1zB6+hm2fFYg0+YFZdEadViYlu82qrWqAUmfF64g2vNo2ZR64A4vYH0v4nhzOAPErgkTprgNiVzBTEA7gsF4PGUh+MOCMRoCUTsVtlun+FtnVqbJRUSx9/prZVc8QLxQ8SO0KmfotaruhLaadwJyK9y38aMhKqX/mB7NW410YOHWshk57jBw0+gDy/ky0F336JS3bGv8S0IG9lV+ubExLWQfZqvXEvG2Bia7tcA8t3rFFpqdmsSEtby6v2wGRRWEXQpMVDEYFkq9jVu7Dh6JTIqfZey2FYAYfoLFXXIZH6CxreA9krz6SKRmZNHj+FWrQITnciD4F9oosSEKA3L4FYaoxJ+VnCxiYZaAxN+PcHHwGTKMJFUB7Zxlo4DNoKPjkP19gYvXsB0F8KwRiYUl/FYLwQifHXIDXLPyjWzq6LH0jCVNcSkl3Rf5fgGoDO0UWfo1LsM7Q6ZgRghvsLWa1q4jId+RdAeTvg8wsLFTluvMHAr7cgJ7M7cUvopCRkqr6XloUBuR8mJVQ0mrwEylf8A/IGInu2cU/6Iy1vLH2ImwVx/CUuqyAvHCTjRWJ1NpU1yAk6Ylpa3VgHgitPVGBWNB4ley1tNcyLrrkB7JV2d5aHhgT2ejx15KW6wtAPtNM/RCXr7E7X/AGGgueuoFZTX8ruvkTHED2db2uguJAZnUYSL2Jjo+3a8Lb5AczjxnoHWXMBHQfFxBRrXcBst7qw9EJjvLyqLBBnVgVlLWbNy1c8fSJwxWJvkv0ts96b5sDoGY2llUg06IDtnV+TLwQ3kNme9kJhX4Bib8XmEgd42bDuxBJavsAHI44F3deexbMoFV8rzx32LXMDey1fRWdhcuK/IJJi3m+a/r0J2d3ge7QnZ2ISr3DkL2imfsLKqujs7AJUuy0pBQ8b49H9HsNADy4uSs59UZh4rE1Ii4WZk4It7G38AsqIk/lrkUid3f6Jf8tcgKyFc8fKPY1QxKo11XhHsbAxtCpbzIL0y8y/jaGh19AVk/Lv6ERPWdgWV8shKqsAMRwuwNx10Ft3RINZeA3+JxSGE4CVngFFQWnZrmDb4ANlUWBGJXsrL+OSJt22sDS+NnUrsnxa6sxKVMzcu5RY+gN2hJohcMSE6vcDMr5CpbvCy1fl+FwKTfjFgEllIqMnABTbfjmCi/wCv+xm1O4M3ZY+T/oD3ZqqynDDVo2VZaEkw7z6L+/YnZ4bwLbT8dcwcFV/k/IvaFdn7Cyb2urT7gKg9PyjcB462dH9nsNABSk9ejxe/ZaQlX6JwQ2RYW/oG4aGf+WuRWJXd33I/8tcgKyrL9cjyPgdKo31XhHRoCMX6Rh12ET07A9L+QFJXyyEyod5ZhNm+V/L6d4uCJ2pgdNgrgiC13EzoXY8Aq13AX/5Oq7nHschW0OAi7QcXPp+joXe1014CRfgCbN1YLwZ4FEt1ZeDMSuA6GKyErIdsLJweCuzq542+APGruxCevYmOgecr+4GZa3svZbgSgV7wLJevAGJkNieBKAtO44P0RgA1tKuDNWiZ7ueAaEDeyq/K3uLghvyCyavATKd+QHT7bOxCVc1kVmx1xJy6rIBKjttuKQ0JR8fpmv5U1yAlLhVU8cDEPF9TcENlh6pb6geqiJRV1yLtUz9kG73rgBSRFc+rfg9jdDMijx14Ka72gH2qgZ0s5/orbXcE5YWZ3gblRpxWrqu3+xMp3hZDvXjCy0bBFfrqBWfRg+eq3jZ3xYGyt3H0gHOacTZwHTIL+/kLYMjfsFDrsAuF3LD8OgV1NWnQS6O2y1G5evoCUTvaw8I7+dlMTo2lE7r/APRlveyAoorVrqSn1Wfo3LVia1xMTnTP0B7KW9kVT1kyUqHes6MpH7/QPJy3crCMJSP45GAPJj8EIddysx+l5/ScIGpHyYjiR2ar1xLxrkBmNbuLIS3vLH2Um22awISvkuj9sBkbsMRs9mOhiMCsTuv4FpfxWAeZDbZ9lm7IVkB0bpgGid7ER+g0b3gNyX5LQ8MP0hJ44/hZuwCG0q7P0Hbuwv8AYifRZh4QNy/ll50hEqG/uG2ZXrBjIIFagKT1cwadXq4ROVzwDLXcD6EUtHEYprtozgLP0AVcrfQ9UPn/AIvIDYXdD0sPYasnJosikNQIxxL+Ttvpr6Jz3f2+z2Zb/N64IxFW/kvYF7Vf37kZnA1L9GZvDMDcD3rej9GmrrzyFX66HsygGIonZ6Mo6PjgeQ+vYGZvHHXgnAVnUzMS666Ae7K77elv2xUb1kQ2f5PBCXDeBGbDd2XcPLqsUJm0z/A0NViAyKG0g6CHQMqAIUVe5qzdhwXgjPdmaEwrdWCAm/QWKuuQuOnYI6gbkvz6TKxEtnpmKloA0xXLXANDrt/Y3aaLXBg1r6A3L+WQmXVBpa3tdBHIDpkdcEQtLtbsQVu/MD6P/jtPDkzgNv0AVcrPYuK3qCh12AbCrl1S9GoasnBNW6uhuXr6AlFDbE77KE56vyX0Ujhtid9/LsZa3sgNpK/BLNEZnArLo2YmqmfoD2Bb1nR+jVtxmXFvW9GUjprqBJq72ZS8FI/jkYQE5qrjryYhZuatd/wm3fdyAtJdjb6F4JnANLdMCkFcgPZtA8L3lj7Ez/isAq+UOPsBsbuCwi41cGYG44P5JdLfYhRbqIp3PPyatuhwA3ErUFmKxi4Qu0q8CmzK54l4WQku54+iiiuYE9rd0IbngxG2UQaXUCkn5d/QmJBNn+Sz+rF6FxsCUxOwMnfrjYLjVzt1aFd3f+gG2nHM4DUyO/v5CJiIVe3yX3phIvwBsKpdw/D2B3PXEwnurLwZidwGole3h4R5/HlgeweSmzu542eAMQw2J65k51VmImO4hOd/cDpXyyKpayZCB3vAtC7u3gDya93K0iqlZ3HBkYAPJ656qSSLzkH6dPaArK4Goa5HkDpgewq/ACk+muYaD5Q/5exE1XBpXyhx9gOmq4M+Yq0hEgObrmVSX8YcF+Eo/wDlrgisPxhwXgDcIfaIb3lr7Lwkpz3u3hAeSaPErZ7ISouBZAT2101wYeDX2I2zhrgGXACsp2x5PyKihCynfaXgm3geTaMJF7FzKMHE7wHM49eBwE22Eifj9GV1yBtcegC7d1ZGeBuCmSJtWWoDSVsJaQrIXiTkumZuXeosfQGm7V2Dz37LLhiQnV7gdLe9l7LcA8t35e0XbuA8mRWp4EoDcVGTgA3tLuDJXpCtpVyCut1wG4aYfpSB72Xr+iZqD5ZAbmu5B5L31ivJac7rCUlb6xQD4iMbqacRmJAYnuy3r/a9F5dFgiEyG1225d7BMuO5dPwD1q+xB57v7eC7itYafV64AakL8tLfxJSKPG0q4r2BPbFTXAK3SwVtzsSx9BUgNy3QpA70Tl8zfFAVmPd7go+GI2Y7nrhYDfsD6LRx64TgJ/gJjYqgo2AyVRYEoqsrKosEHiqwLK6G3r+lNlo31ZGGG2Frp+ltmVkLXJgbSCTaik/AabCBmV8hUpXh9nW9kJhA6a92LAJLFTXuxBJbvYF9qVqWP6Dj+Xcp/wCyorLLed5KKvcCsD+zUvhbq5GZa8HsK1kB5HHaTge+l1XopGZlXRW9UAmJHRqpzfog43ZrnZ4A1z6FpFFZ0Cx2/oiS923oBVIjNq9chEP4Gnu95Ab2f4vXA06mJNHiaiYGdqdNcGF/0I2uixDWUsArBQ2la0Yh46qage8tUt/QKzFuvXEG/wDsKmvd10CN366AfSbsONRVOAnzAxUOOAbL+KwRB1OOApJ13ZSH4vH8OOA9lURPaf044DGy1WDEw+n6OOAxO+MQSXU44A+yVyKTK65nHAVk8MDUuuuRxwHTKh384P8AL2j04BjIOhxwGOeflipXxOOAtDQLtFc14R6cBqV8Xj6NP37ZxwE9pp3IzFvI44DoPX6aVVn6OOApNowi+WR6cB9COpxxwH//2Q==');
-    
+    background-repeat: repeat;
     padding-bottom: 2rem;
     height: auto;
     margin: 0 auto;
@@ -146,14 +146,14 @@ h2 {
 }
 
 .info {
-    padding: 8px;
-    margin: 8px 8px;
+    padding: .5rem;
+    margin: .5rem .5rem;
     
     text-align: left;
     max-width: 30%;
     min-width: 20%;
-    background:rgb(255, 250, 250, 0)
-    
+    background:rgb(255, 250, 250, 0);
+    height: auto;
     
 }
 
@@ -262,9 +262,24 @@ footer {
     background-image: url('https://www.appliedimage.com/wp-content/uploads/2014/02/Header-background.jpg');
 }
 
+@media only screen and (max-width: 900px) and (min-width: 580px) {
+   .about {
+        padding-bottom: 7rem;
+    }
+
+    .info {
+        padding-bottom: 2rem;
+    }
+
+    .tag {
+        padding-left: 0;
+    }
+}
+
 @media only screen and (max-width: 580px) {
     
     body {
+        width: 99%;
         height: auto;
     }
 
@@ -283,7 +298,7 @@ footer {
     .tag {
         width: 99%;
         padding-top: 1rem;
-
+        padding-bottom: 10rem;
     }
 
     .img-container {
@@ -291,21 +306,26 @@ footer {
     }
 
     .basic-info {
-        width: 90%;
+        width: 50%;
         position: absolute;
         margin: 0 auto;
         text-align: center;
+        
+    }
 
+    .info {
+        padding-bottom: 10rem;
     }
 
     .about {
         position: relative;
         top: 12rem;
-
+        
+        padding-bottom: 2rem;
     }
 
     .email {
-        padding-top: 12rem;
+        padding-top: 14rem;
     }
           
     }

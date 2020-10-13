@@ -398,7 +398,7 @@ footer {
     and (device-height : 896px) 
     and (-webkit-device-pixel-ratio : 2) {
        
-        #home {
+        /* #home {
             background-image: none;
         }
     
@@ -437,7 +437,7 @@ footer {
     
         .img-container {
             display: none;
-        }
+        } */
     
         .basic-info {
             width: 75%;
@@ -452,11 +452,11 @@ footer {
         }
     
         #course-info {
-            font-size: 1.5rem;
+            font-size: 2rem;
             color: #BEBBBB;
         }
     
-        .learned {
+        /* .learned {
             display: flex;
             flex-wrap: wrap;
         }
@@ -470,10 +470,10 @@ footer {
         .email {
             padding-top: 14rem;
             width: 100%;
-        }
+        } */
     }
 
-      
+/*       
     @media only screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio : 3) {
         #home {
             background-image: none;
@@ -697,5 +697,5 @@ footer {
             padding-top: 14rem;
             width: 100%;
         }
-    }
+    } */
 

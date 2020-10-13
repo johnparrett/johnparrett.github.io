@@ -318,6 +318,10 @@ footer {
 
 @media only screen and (max-width: 580px) {
     
+    #home {
+        background-image: none;
+    }
+
     #program-img {
         height: 12rem;
     }
@@ -343,7 +347,7 @@ footer {
 
     .tag {
         width: 75%;
-        padding-top: 1rem;
+        padding-top: 0rem;
         padding-bottom: 10rem;
         text-align: center;
         padding-left: 0rem;

@@ -414,7 +414,8 @@ footer {
     
         .tag {
             width: 75%;
-            padding: 1rem 0rem 10rem 0rem;
+            padding-top: 1rem;
+            padding-bottom: 10rem;
         }
     
         .img-container {

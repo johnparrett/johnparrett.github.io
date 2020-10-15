@@ -311,9 +311,7 @@ footer {
 
 @media only screen and (max-width: 580px) {
     
-    #home {
-        background-image: none;
-    }
+    
 
     #program-img {
         height: 12rem;
@@ -392,9 +390,13 @@ footer {
     and (-webkit-device-pixel-ratio : 2) {
        /* basic info */
 
+       header {
+           height: 6rem;
+       }
 
        #home {
-           font-size: 4rem;
+           font-size: 6rem;
+           padding-top: 2rem;
        }
         
 
@@ -417,8 +419,10 @@ footer {
         /*about */
 
         #language {
-            font-size: 3.5rem; 
+            font-size: 6rem; 
+            padding-bottom: 6rem;
         }
+
 
         .info {
             padding-bottom: 10rem;
@@ -428,10 +432,19 @@ footer {
             text-align: center;
         }
 
+        .learned-info {
+            display: inline-flex;
+        }
+
         .fix {
             position: relative;
             right: 2rem;
             text-align: center;
+        }
+
+        .fixed {
+            position: relative;
+            right: 6rem;
         }
 
         #course-info {
@@ -457,6 +470,321 @@ footer {
         /* Email */
         .interested {
             font-size: 4rem; 
+            padding-bottom: 10rem;
+       }
+
+       .button {
+           margin-top: 4rem;
+       }
+
+       .email {
+           padding-top: 5rem;
+           padding-bottom: 5rem;
+       }
+
+       .btn {
+           font-size: 3rem;
+       }
+
+       
+    }
+
+    @media only screen and (device-width: 375px) 
+    and (device-height: 667px)
+    and (-webkit-device-pixel-ratio: 2) {
+
+    header {
+        height: 6rem;
+    }
+ 
+    #home {
+        font-size: 6rem;
+        padding-top: 2rem;
+    }
+     
+
+     .basic-info {
+         font-size: 2rem;
+         
+         width: 100%;
+         margin: 0 auto;
+         padding: 0rem;
+     }
+
+     #img {
+         display: none;
+     }
+     
+     .willing {
+         font-size: 2rem;
+     }
+
+     /*about */
+
+     #language {
+         font-size: 6rem; 
+         padding-bottom: 6rem;
+     }
+
+
+     .info {
+         padding-bottom: 10rem;
+         font-size: 4rem;
+         width: 100%;
+         margin: 0 auto;
+         text-align: center;
+     }
+
+     .learned-info {
+         display: inline-flex;
+     }
+
+     .fix {
+         position: relative;
+         right: 2rem;
+         text-align: center;
+     }
+
+     .fixed {
+         position: relative;
+         right: 6rem;
+     }
+
+     #course-info {
+         width: 45rem;
+         text-align: center;
+         position: relative;
+         right: 14rem;
+     }
+
+     #program-img {
+         width: 100%;
+     }
+     
+
+     .learned {
+         width: 100%;
+         margin: 0 auto;
+         display: grid;
+         text-align: center;
+     }
+
+
+     /* Email */
+     .interested {
+        font-size: 4rem; 
+        padding-bottom: 10rem;
+   }
+
+   .button {
+       margin-top: 4rem;
+   }
+
+   .email {
+       padding-top: 5rem;
+       padding-bottom: 5rem;
+   }
+
+   .btn {
+       font-size: 3rem;
+   }
+}
+
+@media only screen 
+    and (device-width : 375px) 
+    and (device-height : 812px) 
+    and (-webkit-device-pixel-ratio : 3) {
+        
+        header {
+            height: 6rem;
+        }
+ 
+        #home {
+            font-size: 6rem;
+            padding-top: 2rem;
+        }
+    
+         .basic-info {
+             font-size: 2rem;
+             
+             width: 100%;
+             margin: 0 auto;
+             padding: 0rem;
+         }
+    
+         #img {
+             display: none;
+         }
+         
+         .willing {
+             font-size: 2rem;
+         }
+    
+         /*about */
+    
+         #language {
+             font-size: 6rem; 
+             padding-bottom: 6rem;
+         }
+    
+    
+         .info {
+             padding-bottom: 10rem;
+             font-size: 4rem;
+             width: 100%;
+             margin: 0 auto;
+             text-align: center;
+         }
+    
+         .learned-info {
+             display: inline-flex;
+         }
+    
+         .fix {
+             position: relative;
+             right: 2rem;
+             text-align: center;
+         }
+    
+         .fixed {
+             position: relative;
+             right: 6rem;
+         }
+    
+         #course-info {
+             width: 45rem;
+             text-align: center;
+             position: relative;
+             right: 14rem;
+         }
+    
+         #program-img {
+             width: 100%;
+         }
+         
+    
+         .learned {
+             width: 100%;
+             margin: 0 auto;
+             display: grid;
+             text-align: center;
+         }
+    
+    
+         /* Email */
+         .interested {
+            font-size: 4rem; 
+            padding-bottom: 10rem;
+       }
+
+       .button {
+           margin-top: 4rem;
+       }
+
+       .email {
+           padding-top: 5rem;
+           padding-bottom: 5rem;
+       }
+
+       .btn {
+           font-size: 3rem;
+       }
+    }
+
+    @media only screen 
+    and (device-width : 414px) 
+    and (device-height : 736px) 
+    and (-webkit-device-pixel-ratio : 3) {
+
+        header {
+            height: 6rem;
+        }
+ 
+        #home {
+            font-size: 6rem;
+            padding-top: 2rem;
+        }
+         
+    
+         .basic-info {
+             font-size: 2rem;
+             width: 100%;
+             margin: 0 auto;
+             padding: 0rem;
+         }
+    
+         #img {
+             display: none;
+         }
+         
+         .willing {
+             font-size: 2rem;
+         }
+    
+         /*about */
+    
+         #language {
+             font-size: 6rem; 
+             padding-bottom: 6rem;
+         }
+    
+    
+         .info {
+             padding-bottom: 10rem;
+             font-size: 4rem;
+             width: 100%;
+             margin: 0 auto;
+             text-align: center;
+         }
+    
+         .learned-info {
+             display: inline-flex;
+         }
+    
+         .fix {
+             position: relative;
+             right: 2rem;
+             text-align: center;
+         }
+    
+         .fixed {
+             position: relative;
+             right: 6rem;
+         }
+    
+         #course-info {
+             width: 45rem;
+             text-align: center;
+             position: relative;
+             right: 14rem;
+         }
+    
+         #program-img {
+             width: 100%;
+         }
+         
+    
+         .learned {
+             width: 100%;
+             margin: 0 auto;
+             display: grid;
+             text-align: center;
+         }
+    
+    
+         /* Email */
+         .interested {
+            font-size: 4rem; 
+            padding-bottom: 10rem;
+       }
+
+       .button {
+           margin-top: 4rem;
+       }
+
+       .email {
+           padding-top: 5rem;
+           padding-bottom: 5rem;
        }
 
        .btn {

@@ -110,7 +110,7 @@ h1 {
     width: 45%;
     margin: 0 auto;
     padding: 2.5%;
-    
+    padding-right: 3rem;
 }
 
 .tag {
@@ -128,8 +128,7 @@ h1 {
     width: 45%;
     margin: 0 auto;
     text-align: center;
-    position: relative;
-    left: 3rem;
+    
     padding: 2.5%;
 }
 
@@ -181,8 +180,7 @@ h2 {
 .info {
     padding: .5rem;
     margin: .5rem .5rem;
-    
-    text-align: left;
+    text-align: center;
     max-width: 30%;
     min-width: 20%;
     background:rgb(255, 250, 250, 0);
@@ -204,11 +202,6 @@ h2 {
     border: none;
 }
 
-#course-name {
-    text-align: left;
-    font-weight: bold;
-}
-
 #link {
     color: #CBFF4D;
     text-decoration: underline;
@@ -218,7 +211,7 @@ h2 {
     color: #8F6593;
 }
 
-#learned-info {
+.learned-info {
     text-decoration: underline;
     text-align: center;
     font-weight: bold;
@@ -393,37 +386,80 @@ footer {
           
     }
 
-      /* @media only screen 
+      @media only screen 
     and (device-width : 414px) 
     and (device-height : 896px) 
     and (-webkit-device-pixel-ratio : 2) {
-       
+       /* basic info */
+
+
+       #home {
+           font-size: 4rem;
+       }
         
-    
-        #program-img {
-            height: auto;
-        }
-    
-    
-        .info {
-            padding-bottom: 3rem;
-        }
-    
-        #course-info {
+
+        .basic-info {
             font-size: 2rem;
-            color: #BEBBBB;
-        }
-    
-        .learned {
-            display: flex;
-            flex-wrap: wrap;
+            
+            width: 100%;
+            margin: 0 auto;
+            padding: 0rem;
         }
 
-        #learned-info {
-            font-size: 1.5rem;
+        #img {
+            display: none;
         }
-    
-        .about {
+        
+        .willing {
+            font-size: 2rem;
+        }
+
+        /*about */
+
+        #language {
+            font-size: 3.5rem; 
+        }
+
+        .info {
             padding-bottom: 10rem;
+            font-size: 4rem;
+            width: 100%;
+            margin: 0 auto;
+            text-align: center;
         }
-    } */
+
+        .fix {
+            position: relative;
+            right: 2rem;
+            text-align: center;
+        }
+
+        #course-info {
+            width: 45rem;
+            text-align: center;
+            position: relative;
+            right: 14rem;
+        }
+
+        #program-img {
+            width: 100%;
+        }
+        
+
+        .learned {
+            width: 100%;
+            margin: 0 auto;
+            display: grid;
+            text-align: center;
+        }
+
+
+        /* Email */
+        .interested {
+            font-size: 4rem; 
+       }
+
+       .btn {
+           font-size: 3rem;
+       }
+    }

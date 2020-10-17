@@ -1,3 +1,7 @@
+html {
+    font-family: "Open sans", sans-serif;
+}
+
 body {
     margin: 0 auto;
     
@@ -318,7 +322,7 @@ footer {
     }
 
     body {
-        width: 100%;
+        width: 90%;
         height: auto;
         margin: 0 auto;
     }
@@ -330,7 +334,7 @@ footer {
     h1 {
         position: static;
         background-color: white;
-        width: 100%;
+        width: 99%;
         padding-bottom: 2rem;
         margin: 0 auto;
         padding-top: 0rem;
@@ -403,7 +407,7 @@ footer {
         .basic-info {
             font-size: 2rem;
             
-            width: 100%;
+            width: 98%;
             margin: 0 auto;
             padding: 0rem;
         }

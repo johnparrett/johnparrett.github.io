@@ -247,6 +247,10 @@ h2 {
     
 }
 
+button {
+    cursor: pointer;
+}
+
 a {
     text-decoration: none;
     color: white;
@@ -582,11 +586,13 @@ footer {
 
    .button {
        margin-top: 4rem;
+       cursor: pointer;
    }
 
    .email {
        padding-top: 5rem;
        padding-bottom: 5rem;
+       cursor: pointer;
    }
 
    .btn {

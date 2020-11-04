@@ -22,7 +22,7 @@ header {
     display: inline-flex;
     align-items: center;
     z-index: 2;
-    background-image: url('https://www.appliedimage.com/wp-content/uploads/2014/02/Header-background.jpg');
+    background-color: #B22222;
     overflow: hidden;
     top: 0;
 }
@@ -293,7 +293,8 @@ footer {
     text-align: center;
     padding-top: 1rem;
     z-index: 3;
-    background-image: url('https://www.appliedimage.com/wp-content/uploads/2014/02/Header-background.jpg');
+    background-color: #B22222;    
+    
 }
 
 

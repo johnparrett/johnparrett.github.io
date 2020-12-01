@@ -333,10 +333,12 @@ h2 {
 .email {
     text-align: center;
     margin-left: 3rem;
+    border-bottom: 1px solid black;
 }
 
 #email-btn {
     cursor: pointer;
+    margin-bottom: 3rem;
 }
 
 h4 {
@@ -348,5 +350,6 @@ h4 {
     text-align: center;
     margin-left: 3rem;
     margin-top: 3rem;
+    margin-bottom: 3rem;
 }
 

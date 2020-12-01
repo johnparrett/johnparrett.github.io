@@ -46,13 +46,19 @@
                 "basic-info";   
         }
 
+        .img-container {
+            width: 100%;
+        }
+
         .tag {
+            width: 80%;
             padding-top: 3rem;
             padding-left: 3rem;
             grid-area: tag;
         }
 
         .basic-info {
+            font-size: 2rem;
             padding-left: 3rem;
             padding-bottom: 3rem;
             grid-area: basic-info;
@@ -281,7 +287,6 @@
 
         .banner-menu {
             position: relative;
-
         }
 
         .btn {
@@ -298,8 +303,6 @@
             top: 10rem;
             margin-bottom: 12rem;
         }
-
-
 
         /* index */
 

@@ -27,8 +27,6 @@
             margin-bottom: 12rem;
         }
 
-
-
         /* index */
 
         h1 {
@@ -422,7 +420,6 @@
 
         .banner-menu {
             position: relative;
-
         }
 
         .btn {
@@ -451,6 +448,7 @@
         
 
         .home-grid-container {
+            
             overflow: hidden;
             text-align: center;
             display: grid;
@@ -462,7 +460,12 @@
                 "basic-info";   
         }
 
+        .img-container {
+            width: 100%;
+        }
+
         .tag {
+            width: 80%;
             padding-top: 3rem;
             padding-left: 3rem;
             grid-area: tag;
@@ -470,7 +473,7 @@
 
         .basic-info {
             padding-left: 3rem;
-            padding-bottom: 3rem;
+            
             grid-area: basic-info;
         }
 

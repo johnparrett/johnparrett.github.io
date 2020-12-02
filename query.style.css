@@ -87,30 +87,7 @@
 
         /* certifications */
 
-        .certification-grid-container {
-            padding-bottom: 2rem;
-            margin-bottom: 3rem;
-            margin-top: 3rem;
-            margin-left: 3rem;
-            text-align: center;
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-            gap: 1rem 1rem;
-            grid-template-areas:
-              "html css" 
-              "javascript react"
-              "git command-line" 
-              "deploy interactive-js"
-              "front-end-react bootstrap" 
-              "color-design navigation"
-              "jquery build-a-website";
-        }
-
-        .cert-img {
-            width: 15rem;
-            padding-top: 3rem;
-        }
+        
 
         /* contact */
 
@@ -170,8 +147,6 @@
             margin-bottom: 12rem;
         }
 
-
-
         /* index */
 
         h1 {
@@ -226,29 +201,7 @@
 
         /* certifications */
 
-        .certification-grid-container {
-            padding-bottom: 2rem;
-            margin-top: 3rem;
-            margin-left: 3rem;
-            text-align: center;
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-            gap: 1rem 1rem;
-            grid-template-areas:
-              "html css" 
-              "javascript react"
-              "git command-line" 
-              "deploy interactive-js"
-              "front-end-react bootstrap" 
-              "color-design navigation"
-              "jquery build-a-website";
-        }
-
-        .cert-img {
-            width: 15rem;
-            padding-top: 3rem;
-        }
+        
 
         /* contact */
 
@@ -359,29 +312,7 @@
 
         /* certifications */
 
-        .certification-grid-container {
-            padding-bottom: 2rem;
-            margin-top: 3rem;
-            margin-left: 3rem;
-            text-align: center;
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-            gap: 1rem 1rem;
-            grid-template-areas:
-              "html css" 
-              "javascript react"
-              "git command-line" 
-              "deploy interactive-js"
-              "front-end-react bootstrap" 
-              "color-design navigation"
-              "jquery build-a-website";
-        }
-
-        .cert-img {
-            width: 15rem;
-            padding-top: 3rem;
-        }
+        
 
         /* contact */
 
@@ -449,10 +380,7 @@
             font-size: 5rem;
         }
 
-        
-
         .home-grid-container {
-            
             overflow: hidden;
             text-align: center;
             display: grid;
@@ -504,29 +432,7 @@
 
         /* certifications */
 
-        .certification-grid-container {
-            padding-bottom: 2rem;
-            margin-top: 3rem;
-            margin-left: 3rem;
-            text-align: center;
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-            gap: 1rem 1rem;
-            grid-template-areas:
-              "html css" 
-              "javascript react"
-              "git command-line" 
-              "deploy interactive-js"
-              "front-end-react bootstrap" 
-              "color-design navigation"
-              "jquery build-a-website";
-        }
-
-        .cert-img {
-            width: 15rem;
-            padding-top: 3rem;
-        }
+        
 
         /* contact */
 
@@ -645,29 +551,7 @@
 
         /* certifications */
 
-        .certification-grid-container {
-            padding-bottom: 2rem;
-            margin-top: 3rem;
-            margin-left: 3rem;
-            text-align: center;
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-            gap: 1rem 1rem;
-            grid-template-areas:
-              "html css" 
-              "javascript react"
-              "git command-line" 
-              "deploy interactive-js"
-              "front-end-react bootstrap" 
-              "color-design navigation"
-              "jquery build-a-website";
-        }
-
-        .cert-img {
-            width: 15rem;
-            padding-top: 3rem;
-        }
+        
 
         /* contact */
 
@@ -783,29 +667,7 @@
 
     /* certifications */
 
-    .certification-grid-container {
-        padding-bottom: 2rem;
-        margin-top: 3rem;
-        margin-left: 3rem;
-        text-align: center;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-        gap: 1rem 1rem;
-        grid-template-areas:
-          "html css" 
-          "javascript react"
-          "git command-line" 
-          "deploy interactive-js"
-          "front-end-react bootstrap" 
-          "color-design navigation"
-          "jquery build-a-website";
-    }
-
-    .cert-img {
-        width: 15rem;
-        padding-top: 3rem;
-    }
+    
 
     /* contact */
 
@@ -920,29 +782,7 @@
 
     /* certifications */
 
-    .certification-grid-container {
-        padding-bottom: 2rem;
-        margin-top: 3rem;
-        margin-left: 3rem;
-        text-align: center;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-        gap: 1rem 1rem;
-        grid-template-areas:
-          "html css" 
-          "javascript react"
-          "git command-line" 
-          "deploy interactive-js"
-          "front-end-react bootstrap" 
-          "color-design navigation"
-          "jquery build-a-website";
-    }
-
-    .cert-img {
-        width: 15rem;
-        padding-top: 3rem;
-    }
+    
 
     /* contact */
 

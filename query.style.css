@@ -269,7 +269,7 @@
             font-size: 5rem;
         }
 
-         {
+        .home-grid-container {
             overflow: hidden;
             text-align: center;
             display: grid;

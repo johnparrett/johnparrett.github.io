@@ -15,7 +15,6 @@ html {
 
 body {
     background-image: url('https://img.freepik.com/free-photo/old-black-background-grunge-texture-dark-wallpaper-blackboard-chalkboard-concrete_1258-17171.jpg?size=626&ext=jpg');
-    
     background-position: center;
     background-repeat: repeat;
     background-size: cover;
@@ -75,6 +74,24 @@ header {
     left: 1rem;
     margin-top: .5rem;
 }
+
+.nav-btn {
+    font-size: 1.5rem;
+    text-decoration: none;
+    margin-right: 2rem;
+    color: black;
+}
+
+.nav-btn:hover {
+    text-decoration: underline;
+    color: gray;
+}
+
+.joke {
+    cursor: default;
+}
+
+/* buttons */
 
 .btn {
     background: black;

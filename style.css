@@ -21,18 +21,19 @@ body {
 }
 
 .container {
+    position: sticky;
+    z-index: 2;
     border-radius: 1rem;
-    position: relative;
-    top: 6rem;
     background-image: url('https://images.unsplash.com/photo-1516541196182-6bdb0516ed27?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max');
     background-repeat: no-repeat;
     background-size: cover;
     padding-bottom: 2rem;
-    margin-right: 3rem;
-    margin-left: 3rem;
     padding-right: 3rem;
+    margin-right: 3rem;
+    margin-top: 8rem;
+    margin-left: 3rem;
     margin-bottom: 3rem;
-    z-index: 1;
+    
 }
 
 /* header Sections */
@@ -43,7 +44,7 @@ header {
     position: fixed;
     display: inline-flex;
     align-items: center;
-    z-index: 2;
+    z-index: 3;
     background-color: #ffffff;
     overflow: hidden;
     top: 0;
@@ -124,11 +125,11 @@ header {
   /* footer section */
 
 .footer {
+    z-index: 1;
     position: fixed;
     bottom: 0;
     font-size: 1rem;
     text-align: center;
-    z-index: 0;
     color: #ffffff;
     left: 0;
     right: 0; 
@@ -184,8 +185,10 @@ h1 {
    
 .img-container {
     height: auto;
+    max-height: 30rem;
     width: 100%;
     padding-bottom: 1rem;
+    padding-left: 1rem;
 }
 
 .tag {
@@ -201,6 +204,7 @@ h1 {
     margin-left: 3rem;
     text-align: left;
     grid-area: basic-info; 
+    max-height: 30rem;
 }
 
 h2 {
@@ -255,92 +259,11 @@ h2 {
 
 /* certifications page */
 
-.certification-grid-container {
-    margin-top: 3rem;
-    margin-left: 3rem;
+.cert-grid-container {
     text-align: center;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    gap: 1rem 1rem;
-    grid-template-areas:
-      "html css javascript react"
-      "git command-line deploy interactive-js"
-      "front-end-react bootstrap color-design navigation"
-      "jquery build-a-website . .";
-}
-  
-.html { 
-    grid-area: html; }
-  
-.css { 
-    grid-area: css; 
-}
-  
-.javascript { 
-    grid-area: javascript; 
-}
-  
-.react { 
-    grid-area: react; 
-}
-  
-.git { 
-    grid-area: git; 
-}
-  
-.command-line { 
-    grid-area: command-line; 
-}
-  
-.deploy { 
-    grid-area: deploy; 
-}
-  
-.interactive-js { 
-    grid-area: interactive-js; 
-}
-  
-.front-end-react { 
-    grid-area: front-end-react; 
-}
-  
-.bootstrap { 
-    grid-area: bootstrap; 
-}
-  
-.color-design { 
-    grid-area: color-design; 
-}
-  
-.navigation { 
-    grid-area: navigation; 
-}
-  
-.jquery { 
-    grid-area: jquery; 
-}
-  
-.build-a-website { 
-    grid-area: build-a-website; 
-}
+    align-items: center;
+    justify-content: center;
 
-.cert-name {
-    text-decoration: none;
-    color: purple;
-}
-
-.cert-name:hover {
-    text-decoration: underline;
-}
-
-.cert-img {
-    width: 10rem;
-    margin: 1rem;
-}
-
-.cert-container {
-    border: solid black 1px;
 }
 
 /* contact page */

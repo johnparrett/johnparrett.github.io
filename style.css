@@ -18,6 +18,8 @@ body {
     background-position: center;
     background-repeat: repeat;
     background-size: cover;
+    max-width: 150rem; 
+    margin: 0 auto;
 }
 
 .container {

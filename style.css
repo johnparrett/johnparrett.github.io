@@ -10,7 +10,7 @@
 
 html {
     font-family: 'Roboto', 'sans-serif';
-    
+    min-width: 350px;
 }
 
 body {
@@ -29,7 +29,7 @@ body {
     background-image: url('https://images.unsplash.com/photo-1516541196182-6bdb0516ed27?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max');
     background-repeat: no-repeat;
     background-size: cover;
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
     padding-right: 3rem;
     margin-right: 3rem;
     margin-top: 8rem;
@@ -177,36 +177,50 @@ h1 {
 }
 
 .home-grid-container {
+    
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
-    gap: 0px 3rem;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0px 0px;
     grid-template-areas:
-      "tag basic-info";
+      "tag" 
+      "basic-info";
 }
    
 .img-container {
     height: auto;
-    max-height: 30rem;
-    width: 100%;
-    padding-bottom: 1rem;
-    padding-left: 1rem;
+    max-height: 35rem;
+    width: 80%;
+    max-width: 30rem;
+    padding: 1rem;
+    margin: 0 auto;
+    border: 5px solid black
 }
 
 .tag {
     display: inline-flex;
     text-align: center;
     margin-left: 3rem;
-    margin-right: 3rem;
-    width: 100%;
+    margin-right: 1rem;
     grid-area: tag;
 }
 
 .basic-info {
-    margin-left: 3rem;
-    text-align: left;
+    margin: 0 auto;
+    width: 75%;
+    padding-left: 3rem;
+    margin-bottom: 3rem;
+    text-align: center;
+    height: auto;
     grid-area: basic-info; 
-    max-height: 30rem;
+    
+}
+
+#basic-info-title {
+    font-size: 2rem;
+    text-decoration: underline;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
 }
 
 h2 {
@@ -228,14 +242,14 @@ h2 {
 /* about me page */
 
 .info {
-    text-align: left;
+    text-align: center;
     margin-left: 3rem;
     font-size: 1.25rem;
 }
 
-.hobbies-grid-container {
+/* .hobbies-grid-container {
     
-    margin-left: 22.5%;
+    margin-left: 22%;
     font-size: 1.25rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -243,7 +257,7 @@ h2 {
     gap: 0px 0px;
     grid-template-areas:
       "hobbies1 hobbies2";
-  }
+  } */
   
 .hobbies1 { 
     grid-area: hobbies1; 
@@ -259,13 +273,44 @@ h2 {
     font-size: .75rem;
 }
 
-/* certifications page */
+/* builds page */
 
-.cert-grid-container {
+.build-grid-container {
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 3rem;
+    padding-left: 1.5rem;
     text-align: center;
-    align-items: center;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 3rem 0;
+    grid-template-areas:
+        "hillside port-img" 
+        "grocery-list cantstopcbus"
+    }
 
+.build-img {
+    width: 80%;
+    height: auto;
+    border: 2px solid black;
+}
+
+.build.info {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.port-img { 
+    grid-area: port-img; 
+}
+
+.grocery-list { 
+    grid-area: grocery-list; 
+}
+
+.cantstopcbus { 
+    grid-area: cantstopcbus; 
 }
 
 /* contact page */

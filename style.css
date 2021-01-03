@@ -190,7 +190,7 @@ h1 {
 .img-container {
     height: auto;
     max-height: 35rem;
-    width: 80%;
+    width: 85%;
     max-width: 30rem;
     padding: 1rem;
     margin: 0 auto;
@@ -207,7 +207,7 @@ h1 {
 
 .basic-info {
     margin: 0 auto;
-    width: 75%;
+    width: 80%;
     padding-left: 3rem;
     margin-bottom: 3rem;
     text-align: center;

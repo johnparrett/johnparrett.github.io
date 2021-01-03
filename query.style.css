@@ -1,3 +1,26 @@
+
+
+@media only screen and (max-width: 420px) {
+    .logo {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 375px) 
+                   and (max-width: 499px) {
+
+   .basic-info {
+       margin-left: 1.75rem;
+   }
+}
+
+@media only screen and (min-width: 500px)
+                   and (max-width: 530px) {
+    .logo {
+        display: none;
+    }
+}
+
 @media only screen and (max-width: 500px) {
     .nav-btn {
         margin-right: .15rem;
@@ -12,7 +35,6 @@
     }    
 
     .home-grid-container {
-        margin-left: .75rem;
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
@@ -23,14 +45,9 @@
 }
 
 @media only screen and (max-width: 600px) {
-    .logo {
-        display: none;
-    }
-
     #basic-info {
         margin-top: 0rem;
     }
-    
 }
 
 @media only screen and (max-width: 800px) {

@@ -284,16 +284,18 @@ h2 {
     text-align: center;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     gap: 3rem 0;
     grid-template-areas:
-        "hillside port-img" 
+        "hillside contractor"
+        "evan-blog port-img" 
         "grocery-list cantstopcbus"
     }
 
 .build-img {
     width: 80%;
     height: auto;
+    max-height: 15rem;
     border: 2px solid black;
 }
 
@@ -310,8 +312,16 @@ h2 {
     grid-area: grocery-list; 
 }
 
-.cantstopcbus { 
+.cantstopcbus {
     grid-area: cantstopcbus; 
+}
+
+.evan-blog {
+    grid-area: evan-blog
+}
+
+.contractor {
+    grid-area: contractor
 }
 
 /* contact page */

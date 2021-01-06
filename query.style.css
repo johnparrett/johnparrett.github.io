@@ -60,13 +60,16 @@
         text-align: center;
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
         gap: 3rem 0;
         grid-template-areas:
+            "contractor"
+            "evan-blog"
             "hillside" 
             "port-img" 
             "grocery-list" 
             "cantstopcbus"
+        
         }
 }
 

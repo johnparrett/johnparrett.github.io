@@ -288,8 +288,8 @@ h2 {
     gap: 3rem 0;
     grid-template-areas:
         "hillside contractor"
-        "evan-blog port-img" 
-        "grocery-list cantstopcbus"
+        "evan-blog cantstopcbus" 
+        "grocery-list port-img"
     }
 
 .build-img {

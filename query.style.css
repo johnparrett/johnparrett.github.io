@@ -73,10 +73,10 @@
         grid-template-areas:
             "contractor"
             "evan-blog"
-            "hillside" 
-            "port-img" 
-            "grocery-list" 
             "cantstopcbus"
+            "hillside"  
+            "grocery-list" 
+            "port-img"
         
         }
 }

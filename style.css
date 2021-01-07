@@ -33,7 +33,7 @@ body {
     padding-bottom: 1rem;
     padding-right: 3rem;
     margin-right: 3rem;
-    margin-top: 8rem;
+    margin-top: 6rem;
     margin-left: 3rem;
     margin-bottom: 3rem;
     
@@ -42,7 +42,7 @@ body {
 /* header Sections */
 
 header {
-    height: 5rem;
+    height: 3rem;
     width: 100%;
     position: fixed;
     display: inline-flex;
@@ -58,11 +58,6 @@ header {
 .guide {
     list-style-type: none;
     display: inline-flex;
-}
-
-.guide li {
-    margin-left: 8px;
-    margin-right: 8px;
 }
 
 .banner-menu {

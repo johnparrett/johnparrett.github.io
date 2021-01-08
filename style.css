@@ -294,9 +294,10 @@ h2 {
     border: 2px solid black;
 }
 
-.build.info {
-    text-align: center;
-    font-size: 1.5rem;
+.build-info {
+    padding-top: 1rem;
+    margin: 0 auto;
+    width: 80%;
 }
 
 .port-img { 

@@ -104,12 +104,13 @@
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
         gap: 3rem 0;
         grid-template-areas:
-            "contractor"
             "evan-blog"
+            "contractor"
             "cantstopcbus"
             "hillside"  
-            "grocery-list" 
             "port-img"
+            "grocery-list" 
+            
         
         }
 }

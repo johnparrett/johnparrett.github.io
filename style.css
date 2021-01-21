@@ -173,7 +173,7 @@ h1 {
 }
 
 .home-grid-container {
-    
+    margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
@@ -190,6 +190,7 @@ h1 {
     max-width: 30rem;
     padding: 1rem;
     margin: 0 auto;
+    margin-left: 1rem;
     border: 5px solid black
 }
 

@@ -1,4 +1,22 @@
+@media only screen and (max-width: 375px) {
+    .basic-info {
+        margin-left: .10rem;
+    }
+}
 
+@media only screen and (min-width: 376px)
+                   and (max-width: 399px) {
+    .basic-info {
+        margin-left: 1rem;
+    }
+}
+
+@media only screen and (min-width: 400px)
+                   and (max-width: 419px) {
+    .basic-info {
+        margin-left: 1.25rem;
+    }
+}
 
 @media only screen and (max-width: 420px) {
     .logo {
@@ -6,16 +24,23 @@
     }
 }
 
-@media only screen and (min-width: 375px) 
+@media only screen and (min-width: 420px) 
                    and (max-width: 499px) {
 
    .basic-info {
-       margin-left: 1rem;
+       margin-left: 2.25rem;
    }
 }
 
 @media only screen and (min-width: 420px)
                    and (max-width: 499px) {
+    .basic-info {
+        margin-left: 2.5rem;
+    }
+}
+
+@media only screen and (min-width: 420px)
+                   and (max-width: 450px) {
     .basic-info {
         margin-left: 2rem;
     }
@@ -29,9 +54,16 @@
     }
 }
 
+@media only screen and (min-width: 500px) 
+                   and (max-width: 500px) {
+    .basic-info {
+        margin-left: 2.75rem;
+    }
+}
+
 @media only screen and (max-width: 500px) {
     .nav-btn {
-        margin-right: .15rem;
+        margin-right: .5rem;
     }
 
     .guide {
@@ -43,6 +75,7 @@
     }    
 
     .home-grid-container {
+        text-align: center;
         margin: 0 auto;
         display: grid;
         grid-template-columns: 1fr;

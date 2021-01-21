@@ -186,11 +186,10 @@ h1 {
 .img-container {
     height: auto;
     max-height: 35rem;
-    width: 85%;
+    width: 100%;
     max-width: 30rem;
     padding: 1rem;
     margin: 0 auto;
-    margin-left: 1rem;
     border: 5px solid black
 }
 

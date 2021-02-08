@@ -171,17 +171,6 @@ h1 {
     margin-left: 3rem;
     padding-right: 3rem;
 }
-
-.home-grid-container {
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
-    gap: 0px 0px;
-    grid-template-areas:
-      "tag" 
-      "basic-info";
-}
    
 .img-container {
     height: auto;
@@ -194,11 +183,10 @@ h1 {
 }
 
 .tag {
-    display: inline-flex;
+    /* margin: 0 auto; */
     text-align: center;
     margin-left: 3rem;
-    margin-right: 1rem;
-    grid-area: tag;
+    margin-right: 3rem;
 }
 
 .basic-info {
@@ -207,9 +195,7 @@ h1 {
     padding-left: 3rem;
     margin-bottom: 3rem;
     text-align: center;
-    height: auto;
-    grid-area: basic-info; 
-    
+    height: auto;    
 }
 
 #basic-info-title {

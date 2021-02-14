@@ -320,10 +320,10 @@ header {
 
 .contact-btn {
     margin-top: 2rem;
-    padding: .5rem;
+    padding: 1rem;
     font-size: 1.5rem;
     background-color: white;
-    border: solid grey 3px;
+    border: outset white 3px;
 }
 
 .contact-btn:hover {
@@ -459,9 +459,17 @@ textarea:focus {
 
 .inverse-contact-btn {
     margin-top: 2rem;
-    padding: .5rem;
+    padding: 1rem;
     font-size: 1.5rem;
     background-color: black;
     color: white;
     border: solid grey 3px;
+}
+
+.inverse-contact-btn:hover {
+    cursor: pointer;
+}
+
+.inverse-contact-btn:focus {
+    outline-color: rgb(240, 72, 72);
 }

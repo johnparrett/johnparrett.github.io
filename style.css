@@ -33,16 +33,17 @@ main {
     grid-area: footer-info;
 }
 
-.title {
-    color: white;
-}
-
 h1 {
     text-align: center;
     font-variant: small-caps;
     font-size: 3rem;
     padding-bottom: 1rem;
-    padding-top: 6rem;
+}
+
+.title2 {
+    color: white;
+    padding-top: 7rem;
+    margin-bottom: 0rem;
 }
 
 h2 {
@@ -58,13 +59,13 @@ h2 {
 }
 
 a {
-    color: rgb(240, 72, 72);
+    color: red;
 }
 
 /* header Sections */
 
 header {
-    height: 3rem;
+    height: 3.5rem;
     width: 100%;
     position: fixed;
     display: inline-flex;
@@ -89,7 +90,7 @@ header {
 .banner-menu {
     position: absolute;
     right: .5rem;
-    margin-top: .5rem;
+    margin-top: 1rem;
     margin-bottom: .5rem;
 }
 
@@ -172,6 +173,19 @@ header {
 
 /* index.html */
 
+.title {
+    position: relative;
+    text-align: center;
+    height: 100vh;
+    padding-bottom: 0;
+    margin: 0 auto;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+
 .main-title1 {
     font-size: 5rem;
 }
@@ -181,12 +195,15 @@ header {
 }
 
 .home-grid-container {
+    margin: 1rem;
     padding-top: 6rem;
     padding-bottom: 6rem;
+    margin-left: 0;
+    padding-left: 0;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    gap: 6rem 0rem;
+    gap: 6rem 1rem;
     grid-template-areas:
       "personal-img personal-info"
       "about-me about-img";
@@ -199,10 +216,9 @@ header {
   
 .personal-info { 
     grid-area: personal-info; 
-    width: 70%; 
+    width: 80%; 
     text-align: center;
-    padding-left: 3rem;
-    padding-right: 3rem;
+    padding: 3rem;
     background-color: black;
     color: white;
     display:flex;
@@ -214,9 +230,9 @@ header {
 .about-me { 
     grid-area: about-me;
     margin: 0 auto;
-    width: 70%;
+    padding: 3rem;
+    width: 80%;
     text-align: center;
-    padding: 1rem 3rem 1rem 3rem;
     display:flex;
     align-items: center;
     justify-content: center;
@@ -232,7 +248,7 @@ header {
   
 .img-container {
     margin: 0 auto;
-    width: 21rem;
+    width: 24.5rem;
     height: 99%;
     border: 3px solid black;
 }
@@ -307,7 +323,7 @@ header {
 }
   
 .js { 
-      grid-area: js; 
+    grid-area: js; 
 }
   
 .bottom-contact {
@@ -331,7 +347,11 @@ header {
 }
 
 .contact-btn:focus {
-    outline-color: rgb(240, 72, 72);
+    outline-color: red;
+}
+
+.contact-btn:active {
+    background-color: lightgray;
 }
 
 /* builds page */
@@ -339,16 +359,18 @@ header {
 .build-grid-container {
     width: 100%;
     margin: 0 auto;
-    padding-top: 3rem;
+    padding-top: 8rem;
+    padding-bottom: 6rem;
     text-align: center;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
     gap: 3rem 0;
     grid-template-areas:
         "evan-blog contractor"
-        "cantstopcbus hillside" 
-        "port-img grocery-list"
+        "cantstopcbus cbusremembers" 
+        "port-img hillside"
+        "grocery-list under-construction"
     }
 
 .build-img {
@@ -362,7 +384,7 @@ header {
 .build-info {
     padding-top: 1rem;
     margin: 0 auto;
-    width: 80%;
+    width: 60%;
 }
 
 .port-img { 
@@ -385,35 +407,31 @@ header {
     grid-area: contractor
 }
 
-/* contact page */
+.cbusremembers {
+    grid-area: cbusremembers
+}
 
-.contact-grid-container {
-    padding-top: 6rem;
-    padding-bottom: 6rem;
-    text-align: center;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
-    gap: 0px 0px;
-    grid-template-areas:
-        "form-label form-container";
-    }
+.under-construction {
+    grid-area: under-construction
+}
+/* contact page */
       
-.form-label { 
-    grid-area: form-label; 
+/* .form-label { 
+    padding-top: 6rem;
+    padding-bottom: 3rem;
     display:flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-}
+} */
       
-.form-container { 
-    grid-area: form-container; 
-    padding-top: 1rem;
-    border: 3px solid black;
-    width: 80%;
+.form-container {  
+    padding-top: 3rem;
+    width: 100%;
     margin: 0 auto;
-    text-align: center
+    text-align: center;
+    margin-bottom: 3rem;
+    margin-top: 6rem;
 }
 
 #myform {
@@ -450,11 +468,11 @@ textarea  {
 }
 
 input:focus {
-    outline-color: rgb(240, 72, 72);
+    outline-color: red;
 }
 
 textarea:focus {
-    outline-color: rgb(240, 72, 72);
+    outline-color: red;
 }
 
 .inverse-contact-btn {
@@ -471,5 +489,9 @@ textarea:focus {
 }
 
 .inverse-contact-btn:focus {
-    outline-color: rgb(240, 72, 72);
+    outline-color: red;
+}
+
+.inverse-contact-btn:active {
+    background-color: #696969;
 }

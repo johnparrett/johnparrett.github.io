@@ -93,8 +93,6 @@ header {
 .banner-menu {
     position: absolute;
     right: .5rem;
-    margin-top: 1rem;
-    margin-bottom: .5rem;
 }
 
 .logo {
@@ -400,6 +398,7 @@ header {
 .under-construction {
     grid-area: under-construction
 }
+
 /* contact page */
       
 /* .form-label { 
@@ -410,21 +409,6 @@ header {
     justify-content: center;
     flex-direction: column;
 } */
-
-.contact-grid-container {
-    display: flex;
-    grid-template-columns: 0fr 3fr;
-    grid-template-rows: 1fr;
-    gap: 0px 0px;
-    grid-template-areas:
-      "about-img bottom-contact";
-  }
-
-  .about-img {
-      flex: 2;
-  }
-  .bottom-contact { grid-area: bottom-contact; }
-  
       
 .form-container {  
     padding-top: 3rem;

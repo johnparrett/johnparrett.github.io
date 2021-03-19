@@ -120,12 +120,14 @@
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
         gap: 3rem 0;
         grid-template-areas:
+            "cantstopcbus"
+            "cbusremembers"
             "evan-blog"
             "contractor"
-            "cantstopcbus"
-            "hillside"  
-            "port-img"
-            "grocery-list" 
+            "port-img"  
+            "hillside"
+            "grocery-list"
+            "under-construction" 
         }
 }
 

@@ -367,8 +367,8 @@ header {
     grid-template-rows: 1fr 1fr 1fr 1fr;
     gap: 3rem 0;
     grid-template-areas:
-        "evan-blog contractor"
         "cantstopcbus cbusremembers" 
+        "evan-blog contractor"
         "port-img hillside"
         "grocery-list under-construction"
     }

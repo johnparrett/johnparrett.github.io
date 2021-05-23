@@ -1,154 +1,73 @@
-@media only screen and (max-width: 400px) {
-    .logo {
-        display: none;
-    }
-}
-
-@media only screen and (max-width: 475px) {
-    .img-container {
-        width: 20rem;
-    }
-
-    .about-me {
-        padding: 1rem;
-    }
-
-    .personal-info {
-        padding: 1.5rem;
-    }
-}
-
-@media only screen and (min-width: 500px)
-                   and (max-width: 530px) {
-    .logo {
-        display: none;
-    }
-}
-
-@media only screen and (max-width: 500px) {
-    .nav-btn {
-        margin-right: .75rem;
-    }
-
-    .guide {
-        display: flex;
-    }  
-    
-    
-    .skill-set-grid-container {
-        padding-top: 6rem;
-        margin-bottom: 4rem;
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
-        gap: 3rem 0px;
-        grid-template-areas:
-          "web-dev"
-          "front-end"
-          "project";
-      }
-}
-
-@media only screen and (min-width: 500px)
-                   and (max-width: 700px) {
-    
-    .skill-set-grid-container {
-        padding-top: 6rem;
-        margin-bottom: 4rem;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
-        gap: 3rem 0px;
-        grid-template-areas:
-            "web-dev front-end"
-            "project project";
-        }                
-}
-
-@media only screen and (max-width: 700px) {
-
-    .language-grid-container {
-        padding-top: 3rem;
-        padding-bottom: 2rem;
-        text-align: center;
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
-        gap: 0px 0px;
-        grid-template-areas:
-          "html"
-          "css"
-          "js";
-      }
-
-      .contact-grid-container {
-        padding-top: 6rem;
-        padding-bottom: 6rem;
-        text-align: center;
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr;
-        gap: 3rem 0px;
-        grid-template-areas:
-            "form-label"
-            "form-container";
-        }
-}
-
-@media only screen and (max-width: 800px) {
-    .build-grid-container {
-        width: 100%;
+@media only screen and (max-width: 1000px) {
+    .build-container {
+        padding-right: 3rem;
         margin: 0 auto;
-        padding-top: 3rem;
-        text-align: center;
         display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
-        gap: 3rem 0;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 1rem 3rem;
         grid-template-areas:
-            "cantstopcbus"
-            "cbusremembers"
-            "evan-blog"
-            "contractor"
-            "port-img"  
-            "hillside"
-            "grocery-list"
-            "under-construction" 
-        }
-}
-
-@media only screen and (min-width: 700px)
-                   and (max-width: 1050px) {
-    .language-grid-container {
-        padding-top: 3rem;
-        padding-bottom: 2rem;
-        text-align: center;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
-        gap: 0px 0px;
-        grid-template-areas:
-          "html css"
-          "js    js";
+          "the-paperweights cantstopcbus cbusremembers"
+          "evan-blog hillside contractor"
+          "under-construction . .";
       }
 }
 
-
-@media only screen and (max-width: 1200px) {
-    .home-grid-container {
-        padding-top: 3rem;
-        padding-bottom: 3rem;
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 2fr;
-        gap: 6rem 0rem;
-        grid-template-areas:
-          "personal-img" 
-          "personal-info";
-    }
-
-    .img-container {
-        width: 80%;
-        margin-left: 0;          
+@media only screen and (max-width: 750px) {
+    .build-img {
+        width: 10rem;
     }
 }
+
+@media only screen and (max-width: 525px) {
+    .build-img {
+        width: 9rem;
+        
+    }
+
+    .build-container {
+        text-align: center;
+        padding-right: 3rem;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        gap: 1rem 3rem;
+        grid-template-areas:
+          "the-paperweights cantstopcbus"
+          "cbusremembers evan-blog"
+          "hillside contractor"
+          "under-construction .";
+      }
+
+      #title {
+          font-size: 3rem;
+      }
+}
+
+@media only screen and (max-width: 510px) {
+    #title {
+        margin-top: 3.5rem;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .banner-menu {
+        margin-right: .25rem;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .about-info {
+        width: 80%;
+        min-width: 300px;
+        padding-right: 3rem;
+    }
+
+    #title {
+        font-size: 2.5rem;
+    }
+}
+

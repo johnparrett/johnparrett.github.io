@@ -13,7 +13,7 @@ body {
     min-width: 390px;
     margin: 0 auto;
     color: white;
-    height: 100vh;
+
 }
 
 
@@ -22,7 +22,6 @@ body {
     padding-left: 3rem;
     position: relative;
     text-align: left;
-    height: 100vh;
     padding-bottom: 0;
     margin: 0 auto;
     display:flex;
@@ -37,6 +36,17 @@ h1 {
 h4 {
     text-align: center;
 }
+
+.top-padding {
+    margin-top: 6rem;
+}
+
+.home-top-padding {
+    margin-top: 10rem;
+}
+
+
+
 
 /* header */
 
@@ -80,7 +90,7 @@ header {
 .nav-btn {
     font-size: 1.5rem;
     text-decoration: none;
-    margin-right: 2rem;
+    margin-right: 1.75rem;
     color: black;
 }
 
@@ -194,6 +204,7 @@ header {
 }
 
 .w3-display-container {
+    padding-top: 1rem;
     padding-left: 0;
     font-family: 'Roboto', 'serif';
 }

@@ -39,6 +39,7 @@ h4 {
 
 .top-padding {
     margin-top: 6rem;
+    font-weight: 500;
 }
 
 .home-top-padding {
@@ -176,7 +177,9 @@ header {
 
 
 .about-info {
-    font-size: .85rem;
+    font-size: .9rem;
+    width: 50%;
+    line-height: 1.25rem;
 }
 
 
@@ -189,14 +192,6 @@ header {
 
 
 
-
-.build-img {
-    max-width: 15rem;
-}
-
-#container {
-    padding-left: 0;
-}
 
 .mySlides {
     display: none;
@@ -262,18 +257,18 @@ textarea  {
 }
 
 input:focus {
-    outline-color: red;
+    outline-color: #D0312D;
 }
 
 textarea:focus {
-    outline-color: red;
+    outline-color: #D0312D;
 }
 
 .inverse-contact-btn {
     margin-top: 2rem;
     padding: 1rem;
     font-size: 1.5rem;
-    background-color: darkgray;
+    background-color: gray;
     color: black;
     border: solid white 3px;
 }
@@ -281,12 +276,14 @@ textarea:focus {
 .inverse-contact-btn:hover {
     cursor: pointer;
     background-color: lightgray;
+    border: solid gray 3px;
 }
 
 .inverse-contact-btn:focus {
-    outline-color: red;
+    outline-color: #D0312D;
 }
 
 .inverse-contact-btn:active {
     background-color: #696969;
+    border: solid lightgray 3px;
 }

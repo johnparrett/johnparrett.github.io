@@ -17,15 +17,14 @@
         <meta property="og:description" content="Web Developer Portfolio Website">
         <meta property="og:image" content="assets/link-image.png" />
 
-        
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
         <link type="text/css" rel="stylesheet" href="style.css">
         <link type="text/css" rel="stylesheet" href="query.style.css">
 
         <link rel="canonical" url="https://www.johnparrett.com">
         <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
         <link rel="icon" type="image/svg" href="https://d1ujqdpfgkvqfi.cloudfront.net/favicon-generator/htdocs/favicons/2020-10-02/f55c06b41ea225dcca61915f341153c8.ico.png">
-        
-        <script src="app.js"></script>
+    
     </head>
 
     <body>
@@ -47,41 +46,49 @@
             
             <div class="container">
                 <h1 id="title">What I have done.</h1>
-                <div id="container" class="build-container">
-                    <div class="the-paperweights">
-                        <a href="https://www.thepaperweightsband.com" target="_blank"><img class="build-img" src="assets/thepaperweights.png" /></a>
-                        <h4>The Paperweights</h4>
-                        <p class="build-info"></p>
-                    </div>
-                    <div class="cantstopcbus">
-                        <a href="https://cantstopcolumbus.com" target="_blank"><img class="build-img" src="assets/cantstopcbus.png" /></a>
-                        <h4>Can't Stop Columbus</h4>
+                <div class="w3-content w3-display-container">
+                    <div class="w3-display-container mySlides">
+                        <img src="assets/thepaperweights.png" style="width:100%">
+                        <a href="https://www.thepaperweightsband.com" target="_blank"><div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">The Paperweights</div></a>
                     </div>
 
-                    <div class="cbusremembers">
-                        <a href="https://cbusremembers.com" target="_blank"><img class="build-img" src="assets/cbusremembers.png" /></a>
-                        <h4>Columbus Remembers</h4>
-                    </div> 
-
-                    <div class="evan-blog">
-                        <a href="https://www.dinventuresllc.com/" target="_blank"><img class="build-img" src="assets/evan blog img.png" /></a>
-                        <h4>Din Ventures LLC</h4>
+                    <div class="w3-display-container mySlides">
+                        <img src="assets/cantstopcbus.png" style="width:100%">
+                        <a href="https://cantstopcolumbus.com" target="_blank"><div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">Can't Stop Columbus</div></a>
+                    </div>
+                    
+                    <div class="w3-display-container mySlides">
+                        <img src="assets/cbusremembers.png" style="width:100%">
+                        <a href="https://cbusremembers.com" target="_blank"><div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">Cbus Remembers</div></a>
                     </div>
 
-                    <div class="hillside">
-                        <a href="https://github.com/johnparrett/hillside" target="_blank"><img class="build-img" src="assets/hillside port img.png" /></a>
-                        <h4>Hillside Commerce LTD</h4>
+                    <div class="w3-display-container mySlides">
+                        <img src="assets/evan blog img.png" style="width:100%">
+                        <a href="https://www.dinventuresllc.com/" target="_blank"><div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">Din Ventures LLC</div></a>
                     </div>
 
-                    <div class="contractor">
-                        <a href="https://github.com/johnparrett/contractor" target="_blank"><img class="build-img" src="assets/contractor img.png" /></a>
-                        <h4>Contractor Insurance Site</h4>
+                    <div class="w3-display-container mySlides">
+                        <img src="assets/hillside port img.png" style="width:100%">
+                        <a href="https://github.com/johnparrett/hillside" target="_blank"><div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">Hillside LTD</div></a>
+                    </div>
+
+                    <div class="w3-display-container mySlides">
+                        <img src="assets/contractor img.png" style="width:100%">
+                        <a href="https://github.com/johnparrett/contractor" target="_blank"><div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">Contractor Insurance</div></a>
+                    </div>
+
+                    <div class="w3-display-container mySlides">
+                        <img src="assets/under construction.png" style="width:100%">
+                        <a href="https://github.com/johnparrett/contractor" target="_blank"><div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">More Websites to Come!</div></a>
                     </div>
 
                     <div class="under-construction">
-                        <a href="#" target=""><img class="build-img" src="assets/under construction.png" /></a>
-                        <h4>More Websites to Come!</h4>
+                        <a href="#" target=""><img class="build-img" src="" /></a>
+                        <h4></h4>
                     </div>
+
+                    <button class="w3-button w3-display-left w3-black" onclick="plusDivs(-1)">&#10094;</button>
+                    <button class="w3-button w3-display-right w3-black" onclick="plusDivs(1)">&#10095;</button>
 
                     <!-- <div class="">
                         <a href="" target="_blank"><img class="build-img" src="" /></a>
@@ -101,6 +108,25 @@
         
         <script>
             console.info('%c We should be working together!', ' font-size: 15px; font-weight: 700; color: pink; text-shadow: 5px 5px black;')
+
+            var slideIndex = 1;
+            showDivs(slideIndex);
+
+            function plusDivs(n) {
+            showDivs(slideIndex += n);
+            }
+
+            function showDivs(n) {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            if (n > x.length) {slideIndex = 1}
+            if (n < 1) {slideIndex = x.length}
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";  
+            }
+            x[slideIndex-1].style.display = "block";  
+            }
+
         </script>
     </body>
 </html>
